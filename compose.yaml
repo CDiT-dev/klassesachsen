@@ -1,0 +1,12 @@
+# klassesachsen demonstrator: static PWA behind nginx (:8080), built from this repo.
+# Deployed on nebula-1 (Hetzner, Germany) via Komodo, branch main. Public through the Cloudflare tunnel.
+services:
+  klassesachsen:
+    build: .
+    pull_policy: build
+    restart: unless-stopped
+    ports:
+      - "${BIND_IP:?set BIND_IP in the Komodo stack}:3140:8080"
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
