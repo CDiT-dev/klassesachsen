@@ -1,0 +1,192 @@
+/* klasseSachsen demonstrator: Depot und Vitrine. Palette laws in the design brief (COS-202):
+   cobalt only on what you can press, with a white ring on green or dark ground;
+   stamp red only on "recorded"; the green wall is ground, never a button. */
+
+@font-face {
+	font-family: 'Archivo';
+	src: url('/fonts/archivo-latin-wdth-normal.woff2') format('woff2');
+	font-weight: 100 900;
+	font-stretch: 62% 125%;
+	font-display: swap;
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: 'Archivo';
+	src: url('/fonts/archivo-latin-ext-wdth-normal.woff2') format('woff2');
+	font-weight: 100 900;
+	font-stretch: 62% 125%;
+	font-display: swap;
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* Digits in reading text: Archivo 500, because Atkinson's slashed zero stops young readers. */
+@font-face {
+	font-family: 'Ziffern';
+	src: url('/fonts/archivo-latin-wdth-normal.woff2') format('woff2');
+	font-weight: 500;
+	font-display: swap;
+	unicode-range: U+0030-0039;
+}
+@font-face {
+	font-family: 'Atkinson';
+	src: url('/fonts/atkinson-hyperlegible-next-latin-400-normal.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: 'Atkinson';
+	src: url('/fonts/atkinson-hyperlegible-next-latin-ext-400-normal.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+2020, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: 'Atkinson';
+	src: url('/fonts/atkinson-hyperlegible-next-latin-700-normal.woff2') format('woff2');
+	font-weight: 700;
+	font-display: swap;
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: 'Atkinson';
+	src: url('/fonts/atkinson-hyperlegible-next-latin-ext-700-normal.woff2') format('woff2');
+	font-weight: 700;
+	font-display: swap;
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+2020, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: 'Atkinson Mono';
+	src: url('/fonts/atkinson-hyperlegible-mono-latin-400-normal.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+}
+
+:root {
+	--wand: #2b4c43;
+	--wand-dunkel: #173e35;
+	--karte: #e7ecef;
+	--papier: #ffffff;
+	--tinte: #16181a;
+	--kobalt: #1e3f9a;
+	--leiste: #17191c;
+	--kohle: #292421;
+	--stempel: #9e2b25;
+	--aus: #9aafaa;
+	--gedaempft: #c5d3ce;
+	--ring: 3px solid #fff;
+	--titel: 'Archivo', 'Ziffern', system-ui, sans-serif;
+	--text: 'Ziffern', 'Atkinson', system-ui, sans-serif;
+	--mono: 'Atkinson Mono', ui-monospace, monospace;
+	color-scheme: dark;
+}
+html.gross { font-size: 130%; }
+
+body {
+	margin: 0;
+	font: 1.125rem/1.5 var(--text);
+	background: var(--wand);
+	color: #fff;
+	-webkit-text-size-adjust: 100%;
+}
+* { box-sizing: border-box; }
+img { max-width: 100%; display: block; }
+a { color: #fff; }
+p { margin: 0 0 0.75rem; max-width: 42rem; }
+
+h1, h2, h3, .titel {
+	font-family: var(--titel);
+	font-stretch: 125%;
+	font-weight: 800;
+	line-height: 1.05;
+	overflow-wrap: normal;
+	hyphens: manual;
+	margin: 0 0 0.75rem;
+}
+h1 { font-size: clamp(2rem, 5vw + 0.5rem, 4rem); }
+h1.gross { font-size: clamp(2.5rem, 8vw, 5.5rem); }
+h2 { font-size: clamp(1.4rem, 2.5vw + 0.5rem, 2rem); }
+h3 { font-size: 1.25rem; }
+/* headings get focus on each new screen for screen readers; no ring for that */
+[tabindex='-1']:focus { outline: none; box-shadow: none; }
+
+.leise { color: var(--gedaempft); }
+.klein { font-size: 1rem; }
+.fett { font-weight: 700; }
+
+/* Pressable things: cobalt fill plus a white ring for primary and selected, empty ring for secondary. */
+.knopf {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.6rem;
+	min-height: 3.5rem;
+	min-width: 3.5rem;
+	padding: 0.6rem 1.25rem;
+	font: 700 1.125rem/1.2 var(--text);
+	color: #fff;
+	background: transparent;
+	border: var(--ring);
+	border-radius: 0;
+	text-decoration: none;
+	text-align: left;
+	cursor: pointer;
+}
+.knopf.haupt, .knopf[aria-pressed='true'], .knopf[aria-checked='true'] { background: var(--kobalt); }
+.knopf.breit { width: 100%; justify-content: space-between; }
+.knopf[aria-disabled='true'], .knopf:disabled {
+	background: var(--aus);
+	border-color: var(--aus);
+	color: var(--tinte);
+	cursor: not-allowed;
+}
+.knopf .sub { display: block; font-weight: 400; font-size: 0.95rem; }
+/* On light cards pressable things are cobalt outlines. */
+.hell .knopf { color: var(--kobalt); border-color: var(--kobalt); }
+.hell .knopf.haupt, .hell .knopf[aria-pressed='true'], .hell .knopf[aria-checked='true'] { color: #fff; background: var(--kobalt); }
+.hell .knopf[aria-disabled='true'] { color: var(--tinte); }
+
+/* One focus indicator, distinct from the white "pressable" ring: cobalt, white, cobalt. */
+:focus-visible {
+	outline: 3px solid #fff;
+	outline-offset: 3px;
+	box-shadow: 0 0 0 9px var(--kobalt);
+}
+
+.reihe { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+.stapel > * + * { margin-top: 1rem; }
+
+.karte-hell {
+	background: var(--karte);
+	color: var(--tinte);
+	padding: 1.25rem;
+}
+.karte-hell a { color: var(--kobalt); }
+
+.zwei {
+	display: grid;
+	gap: 1.5rem 2.5rem;
+	grid-template-columns: 1fr;
+}
+@media (min-width: 52rem) {
+	.zwei { grid-template-columns: 1fr 1fr; }
+	.zwei.links { grid-template-columns: 3fr 2fr; }
+}
+
+.unten {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 2rem;
+}
+.unten .hinweis { flex: 1 1 16rem; margin: 0; }
+
+.sr {
+	position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+	overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*, *::before, *::after { animation: none !important; transition: none !important; }
+}

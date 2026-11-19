@@ -1,0 +1,1514 @@
+{
+  "schema": 1,
+  "quest": "albrechtsburg-demo",
+  "sprache": "de",
+  "stand": "2026-11-19",
+  "karte": "COS-204",
+  "hinweis": "Inhaltsdatei der Demo-Quest. Jeder Lesetext hat zwei Fassungen: einfach (Einfache Sprache, Standard) und leicht (Leichte Sprache). Ein Text mit Sachaussage nennt seine Quellen in 'quellen' (IDs aus dem Block 'quellen'). Texte ohne 'quellen' sind Spielregeln oder Spielführung. 'stimme': 'erfunden' heißt: Die Stimme ist für das Spiel erfunden und wird im Spiel so gekennzeichnet. In 'leicht' trennt der Mediopunkt (·) lange Wörter; für die Vorlese-Audios wird er entfernt. Prüfen: python3 content/check.py Der Block 'rahmen' hält die Texte der Spielführung (Start, Gruppe, Vitrine, Übergabe, Ende), 'ende' die Rückmeldung zu den Kompetenzstufen (COS-205). Die App liest diese Datei direkt; Texte nie in Komponenten kopieren. Der Block 'spiel' je Station sagt der App, welche Minispiele in welcher Reihenfolge laufen, wer das Tablet hält und welche Bilder sie zeigt.",
+  "lizenz_texte": "CC BY-SA 4.0, CDiT",
+  "quellen": {
+    "saebi-arnold": {
+      "titel": "Arnold von Westfalen (um 1425–1481)",
+      "werk": "Sächsische Biografie, Institut für Sächsische Geschichte und Volkskunde (ISGV)",
+      "url": "https://saebi.isgv.de/biografie/Arnold_von_Westfalen_(um_1425-1481)",
+      "gelesen": "2026-11-18",
+      "belegt": "Baubeginn des Schlosses in Meißen am 24.6.1471; Vorhangbogenfenster und Zellengewölbe als typische Bauformen Arnolds; seine Steinmetze verbreiteten die Formen in Sachsen und den umliegenden Ländern."
+    },
+    "sbg-gewoelbe": {
+      "titel": "Die Zellengewölbe der Albrechtsburg Meissen",
+      "werk": "Wissensportal der Staatlichen Schlösser, Burgen und Gärten Sachsen gGmbH (Stand 25.08.2020)",
+      "url": "https://wissen.schloesserland-sachsen.de/haeuser-gaerten/albrechtsburg-meissen/die-magie-der-gewoelbe/",
+      "gelesen": "2026-11-18",
+      "belegt": "„Offenbar wurde dieser besondere Gewölbetyp eigens für die Albrechtsburg erfunden.“ Gefaltete Gewölbeflächen, „Spiel aus Licht und Schatten“; „Exportschlager“, verbreitet „bis in die Mitte des 16. Jahrhunderts über das ganze östliche Mitteleuropa“; „keinerlei zeitgenössische Informationen“, deshalb Forschung mit experimenteller Archäologie (TU Dresden)."
+    },
+    "sbg-episoden": {
+      "titel": "Albrechtsburg Meissen | Geschichte in fünf Episoden",
+      "werk": "Wissensportal der Staatlichen Schlösser, Burgen und Gärten Sachsen gGmbH (Stand 24.08.2020)",
+      "url": "https://wissen.schloesserland-sachsen.de/haeuser-gaerten/albrechtsburg-meissen/albrechtsburg-meissen-wiege-sachsens/",
+      "gelesen": "2026-11-18",
+      "belegt": "Schlingrippengewölbe im Wappensaal, 1521 bis 1523; Verkauf des „Weißen Goldes“ soll „die königlichen Kassen füllen“; Ausmalung ab 1873 unter Wilhelm Rossmann, bezahlt zum Teil aus der französischen Kriegsentschädigung von 1871; Auftraggeber wünscht ein „Denkmal der Liebe zwischen Fürst und Land“."
+    },
+    "md-prinzenraub": {
+      "titel": "Wandbild „Der Altenburger Prinzenraub, 1455 – Teil 1: Der Raub der Prinzen aus dem Altenburger Schloss“ (Inv. ALB_IN_001977)",
+      "werk": "museum-digital, Sammlung Monumentale Wandgemälde der Albrechtsburg Meissen (SBG gGmbH)",
+      "url": "https://nat.museum-digital.de/object/213576",
+      "gelesen": "2026-11-18",
+      "belegt": "Maler Ernst Erwin Oehme, 1875; Entführung in der Nacht zum 8. Juli 1455; Ernst 14 Jahre; Kunz von Kauffungen wollte Entschädigung für verlorene Ländereien erzwingen."
+    },
+    "md-koehler": {
+      "titel": "Wandbild „Der Altenburger Prinzenraub, 1455 – Teil 2: Die Befreiung Albrechts durch den Köhler“ (Inv. ALB_IN_001978)",
+      "werk": "museum-digital, Sammlung Monumentale Wandgemälde der Albrechtsburg Meissen (SBG gGmbH)",
+      "url": "https://nat.museum-digital.de/object/213560",
+      "gelesen": "2026-11-18",
+      "belegt": "Maler Ernst Erwin Oehme, 1875; Albrecht damals 11 Jahre; „Nach der Volkssage“ befreite ihn der Köhler Georg Schmidt, zum Dank freies Holz, ein Gut und der niedere Adel; „Tatsache ist“: Albrecht konnte noch am selben Tag entkommen und Hilfe holen."
+    },
+    "md-boettger-labor": {
+      "titel": "Wandbild „Johann Friedrich Böttger als Gefangener im Laboratorium der Albrechtsburg, 1705“ (Inv. ALB_IN_002003)",
+      "werk": "museum-digital, Sammlung Monumentale Wandgemälde der Albrechtsburg Meissen (SBG gGmbH)",
+      "url": "https://nat.museum-digital.de/object/213598",
+      "gelesen": "2026-11-18",
+      "belegt": "Maler Paul Kießling, 1875; zwei Wandbilder zu Böttger in einer ehemaligen Schlafkammer; Böttger suchte am Schmelzofen nach einem Weg, Gold zu machen; Erfindung 1708 mit einem Team unter Tschirnhaus."
+    },
+    "md-arkana": {
+      "titel": "Wandbild „Johann Friedrich Böttger zeigt August dem Starken die Arkana, 1710“ (Inv. ALB_IN_002002)",
+      "werk": "museum-digital, Sammlung Monumentale Wandgemälde der Albrechtsburg Meissen (SBG gGmbH)",
+      "url": "https://nat.museum-digital.de/object/213556",
+      "gelesen": "2026-11-18",
+      "belegt": "Maler Paul Kießling, 1875; das Bild verlegt die Erfindung in die Albrechtsburg, das ist „in doppelter Hinsicht falsch“: Durchbruch am 15. Januar 1708, Ort Dresdner Jungfernbastei; Gründung der Manufaktur am 23. Januar 1710 veranlasst; im Juni 1710 Umzug in das leere Meißner Schloss, das Schutz für das Geheimnis versprach; 153 Jahre dort."
+    },
+    "ndb-boettger": {
+      "titel": "Bött(i)ger (Bötticher), Johann Friedrich",
+      "werk": "Georg Lockemann in: Neue Deutsche Biographie 2 (1955), S. 411; Alphons Oppenheim in: Allgemeine Deutsche Biographie 3 (1876), S. 203–205",
+      "url": "https://www.deutsche-biographie.de/gnd118512846.html",
+      "gelesen": "2026-11-18",
+      "belegt": "August der Starke ließ Böttger nach Dresden holen und bewachen; weißes Porzellan aus Kaolin mit Feldspat; Manufaktur in Meißen 1710; das Geheimnis hielt nicht: Porzellanfabriken 1720 in Wien, dann Höchst, Fürstenberg, Nymphenburg, Berlin (NDB). Böttger bat zeitlebens um seine Freiheit, gestorben 1719 (ADB)."
+    },
+    "volke-2010": {
+      "titel": "300 Jahre Meißener Porzellanmanufaktur – der Werdegang der Porzellanerfindung",
+      "werk": "Klaus Volke in: Mitteilungen der Gesellschaft Deutscher Chemiker, Fachgruppe Geschichte der Chemie, Bd. 21 (2010), S. 33 ff.",
+      "url": "https://archiv.gdch.de/fileadmin/downloads/Netzwerk_und_Strukturen/Fachgruppen/Geschichte_der_Chemie/Mitteilungen_Band_21/2010-21-03.pdf",
+      "gelesen": "2026-11-18",
+      "belegt": "Porzellan aus fein gemahlenem Kaolin, Quarz und Feldspat (Flussmittel); Brand in Meißen bei 1380 bis 1450 °C; erstes Meißener Porzellan mit Alabaster statt Feldspat; „Kao-Ling – hoher Hügel“; erstes weißes Porzellan am 15. Januar 1708 in Dresden; Gründung der Manufaktur am 6. Juni 1710 in der leer stehenden Albrechtsburg, um das Geheimnis zu wahren."
+    },
+    "meissen-manufaktur": {
+      "titel": "Über die Manufaktur",
+      "werk": "Staatliche Porzellan-Manufaktur Meissen GmbH",
+      "url": "https://www.meissen.com/de/uber-die-manufaktur",
+      "gelesen": "2026-11-18",
+      "belegt": "Porzellan aus China war an europäischen Fürstenhöfen schon seit dem 13. Jahrhundert ein begehrtes Gut; heute Kaolin mit Feldspat und Quarz."
+    },
+    "commons-hofstube": {
+      "titel": "Kategorie „Hofstube (Albrechtsburg)“",
+      "werk": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Category:Hofstube_(Albrechtsburg)",
+      "gelesen": "2026-11-18",
+      "belegt": "Ordnet die Wandbilder zum Prinzenraub (Teil 1 und 2) der Großen Hofstube zu. Nur Ortsangabe; vor einem Klassenbesuch mit der Burg prüfen."
+    },
+    "commons-eichmann-220": {
+      "titel": "Meissen-220-Albrechtsburg-Boettger laboriret auf Gold-2015-gje.jpg",
+      "werk": "Foto: Gerd Eichmann, Wikimedia Commons, CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Meissen-220-Albrechtsburg-Boettger_laboriret_auf_Gold-2015-gje.jpg",
+      "gelesen": "2026-11-18",
+      "belegt": "Das Schild unten am Böttger-Wandbild lautet „J. F. Böttger laboriret in der Burgk auf Gold A. 1705“ (Foto von 2015, nur als Beleg, nicht im Spiel gezeigt)."
+    }
+  },
+  "bilder": {
+    "zellengewoelbe": {
+      "datei": "static/bilder/zellengewoelbe.jpg",
+      "titel": "Zellengewölbe in der Albrechtsburg Meißen",
+      "urheber": "Cethegus (Wikimedia-Nutzer), eigenes Foto vom 15.08.2005",
+      "lizenz": "Gemeinfrei (vom Urheber freigegeben)",
+      "lizenz_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:Zellengew%C3%B6lbe_Albrechtsburg.JPG",
+      "alt": "Blick nach oben an eine weiße Decke. Sie ist in viele spitze, dreieckige Mulden gefaltet, wie ein gefaltetes Papier.",
+      "verwendung": [
+        "station-1 Klassenraum",
+        "station-1 Fundkarte",
+        "station-1 Ersatzbild für das 3D-Gewölbe"
+      ]
+    },
+    "koehler": {
+      "datei": "static/bilder/koehler.jpg",
+      "titel": "Befreiung der Prinzen durch die Köhler (Postkarte, 1899)",
+      "werk": "Wandbild von Ernst Erwin Oehme, 1875, Albrechtsburg Meissen (gemeinfrei, der Maler starb 1907)",
+      "urheber": "Postkarte: Brück & Sohn Kunstverlag Meißen, 1899",
+      "lizenz": "CC0 1.0",
+      "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:00990-Mei%C3%9Fen-1899-Albrechtsburg,_Befreiung_der_Prinzen_durch_die_K%C3%B6hler-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg",
+      "alt": "Alte Postkarte in Grautönen mit einem Wandbild unter einem Spitzbogen: Im Wald kämpfen Männer um einen Reiter, ein Pferd bäumt sich auf. Rechts steht gedruckt: Befreiung des Prinzen Albrecht durch den Kohlenbrenner Schmidt.",
+      "verwendung": [
+        "station-2 Klassenraum",
+        "station-2 Fundkarte"
+      ]
+    },
+    "koehler-detail": {
+      "datei": "static/bilder/koehler-detail.jpg",
+      "titel": "Ausschnitt aus „Befreiung der Prinzen durch die Köhler“",
+      "werk": "Wandbild von Ernst Erwin Oehme, 1875 (gemeinfrei); Ausschnitt von CDiT, 17.11.2026",
+      "urheber": "Postkarte: Brück & Sohn Kunstverlag Meißen, 1899",
+      "lizenz": "CC0 1.0",
+      "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:00990-Mei%C3%9Fen-1899-Albrechtsburg,_Befreiung_der_Prinzen_durch_die_K%C3%B6hler-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg",
+      "alt": "Ausschnitt aus dem Wandbild: Ein Pferd bäumt sich zwischen Bäumen auf. Ein Mann hebt einen langen Stock, andere Männer greifen nach dem Reiter.",
+      "verwendung": [
+        "station-2 Stimme des Köhlers"
+      ]
+    },
+    "koehler-crop": {
+      "datei": "static/bilder/koehler-crop.jpg",
+      "titel": "Ausschnitt aus „Befreiung der Prinzen durch die Köhler“",
+      "werk": "Wandbild von Ernst Erwin Oehme, 1875 (gemeinfrei); Ausschnitt von CDiT, 17.11.2026",
+      "urheber": "Postkarte: Brück & Sohn Kunstverlag Meißen, 1899",
+      "lizenz": "CC0 1.0",
+      "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:00990-Mei%C3%9Fen-1899-Albrechtsburg,_Befreiung_der_Prinzen_durch_die_K%C3%B6hler-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg",
+      "alt": "Das Wandbild vom Köhler ohne den Rand der Postkarte: Kampf im Wald unter einem Spitzbogen.",
+      "verwendung": [
+        "Vitrine",
+        "Collage"
+      ]
+    },
+    "prinzenraub": {
+      "datei": "static/bilder/prinzenraub.jpg",
+      "titel": "Der sächsische Prinzenraub im Schlosse zu Altenburg (Postkarte, 1899)",
+      "werk": "Wandbild von Ernst Erwin Oehme, 1875, Albrechtsburg Meissen (gemeinfrei, der Maler starb 1907)",
+      "urheber": "Postkarte: Brück & Sohn Kunstverlag Meißen, 1899",
+      "lizenz": "CC0 1.0",
+      "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:00989-Mei%C3%9Fen-1899-Albrechtsburg,_Der_S%C3%A4chsische_Prinzenraub_zu_Altenburg-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg",
+      "alt": "Alte Postkarte mit einem Wandbild unter einem Spitzbogen: Nachts steigen Männer über eine Leiter in ein Schloss. Links packt ein Ritter einen Jungen, eine Frau hält den Jungen fest.",
+      "verwendung": [
+        "station-2 Einleitung"
+      ]
+    },
+    "prinzenraub-crop": {
+      "datei": "static/bilder/prinzenraub-crop.jpg",
+      "titel": "Ausschnitt aus „Der sächsische Prinzenraub“",
+      "werk": "Wandbild von Ernst Erwin Oehme, 1875 (gemeinfrei); Ausschnitt von CDiT, 17.11.2026",
+      "urheber": "Postkarte: Brück & Sohn Kunstverlag Meißen, 1899",
+      "lizenz": "CC0 1.0",
+      "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:00989-Mei%C3%9Fen-1899-Albrechtsburg,_Der_S%C3%A4chsische_Prinzenraub_zu_Altenburg-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg",
+      "alt": "Das Wandbild vom Prinzenraub ohne Rand: Ein Ritter packt nachts einen Jungen, eine Frau hält ihn fest.",
+      "verwendung": [
+        "station-2 Einleitung, kleine Ansicht"
+      ]
+    },
+    "boettger": {
+      "datei": "static/bilder/boettger.jpg",
+      "titel": "Böttger laboriert in der Burg auf Gold (Postkarte)",
+      "werk": "Wandbild von Paul Kießling, 1875, Albrechtsburg Meissen (gemeinfrei, der Maler starb 1919)",
+      "urheber": "Postkarte: Brück & Sohn Kunstverlag Meißen, 1899",
+      "lizenz": "CC0 1.0",
+      "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:00988-Mei%C3%9Fen-1899-Albrechtsburg,_B%C3%B6ttcher_laboriert_in_der_Burg_an_Gold-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg",
+      "alt": "Farbige alte Postkarte mit einem Wandbild: ein Labor mit Fenster und Ofen. Ein junger Mann sitzt müde auf einem Stuhl, um ihn arbeiten Männer mit Zangen und Gefäßen. Darunter gedruckt: Böttger laboriert in der Burg auf Gold.",
+      "verwendung": [
+        "station-3 Klassenraum",
+        "station-3 Rezept"
+      ]
+    },
+    "boettger-crop": {
+      "datei": "static/bilder/boettger-crop.jpg",
+      "titel": "Ausschnitt aus „Böttger laboriert in der Burg auf Gold“",
+      "werk": "Wandbild von Paul Kießling, 1875 (gemeinfrei); Ausschnitt von CDiT, 17.11.2026",
+      "urheber": "Postkarte: Brück & Sohn Kunstverlag Meißen, 1899",
+      "lizenz": "CC0 1.0",
+      "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:00988-Mei%C3%9Fen-1899-Albrechtsburg,_B%C3%B6ttcher_laboriert_in_der_Burg_an_Gold-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg",
+      "alt": "Das Böttger-Wandbild ohne Rand: ein junger Mann im Labor, um ihn Männer an Gefäßen und am Ofen.",
+      "verwendung": [
+        "Vitrine",
+        "Collage"
+      ]
+    },
+    "arkana": {
+      "datei": "static/bilder/arkana.jpg",
+      "titel": "Dem Kurfürst August werden die Geheimmittel der Porzellanmanufactur gezeigt (Postkarte)",
+      "werk": "Wandbild von Paul Kießling, 1875, Albrechtsburg Meissen (gemeinfrei, der Maler starb 1919)",
+      "urheber": "Postkarte: Brück & Sohn Kunstverlag Meißen, 1899",
+      "lizenz": "CC0 1.0",
+      "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:00987-Mei%C3%9Fen-1899-Albrechtsburg,_Dem_Kurf%C3%BCrst_August_werden_die_Geheimmittel_der_Porzellanmanufaktur_gezeigt.-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg",
+      "alt": "Braune alte Postkarte mit einem Wandbild unter einem Spitzbogen: Ein Mann mit Perücke sitzt an einem Tisch. Vor ihm kniet ein Arbeiter und zeigt etwas. Daneben steht ein Mann mit Hut. Darunter gedruckt: Dem Kurfürst August werden die Geheimmittel der Porzellanmanufactur gezeigt.",
+      "verwendung": [
+        "station-3 Fundkarte Rückseite",
+        "station-3 Zusatzfrage"
+      ]
+    },
+    "wendelstein": {
+      "datei": "static/bilder/wendelstein.jpg",
+      "titel": "Albrechtsburg, Großer Wendelstein",
+      "urheber": "Kolossos (Wikimedia-Nutzer), Foto vom 20.07.2007",
+      "lizenz": "CC BY-SA 3.0",
+      "lizenz_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:Albrechtsburg-Wendelstein.jpg",
+      "alt": "Innenhof der Albrechtsburg: helle Fassade mit roten Dächern und spitzen Giebeln, davor der hohe Treppenturm mit offenen Bögen und einem spitzen Dach.",
+      "verwendung": [
+        "Start",
+        "Spielbrett"
+      ]
+    },
+    "wendelstein-crop": {
+      "datei": "static/bilder/wendelstein-crop.jpg",
+      "titel": "Ausschnitt aus „Albrechtsburg, Großer Wendelstein“",
+      "werk": "Ausschnitt von CDiT, 17.11.2026; steht wie das Original unter CC BY-SA 3.0",
+      "urheber": "Kolossos (Wikimedia-Nutzer), Foto vom 20.07.2007",
+      "lizenz": "CC BY-SA 3.0",
+      "lizenz_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.de",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:Albrechtsburg-Wendelstein.jpg",
+      "alt": "Der Treppenturm der Albrechtsburg mit offenen Bögen, von unten gesehen.",
+      "verwendung": [
+        "Start, kleine Ansicht"
+      ]
+    }
+  },
+  "aussprache": [
+    {
+      "wort": "Kaolin",
+      "sprich": "Ka-o-lin",
+      "hinweis": "Betonung auf der letzten Silbe"
+    },
+    {
+      "wort": "Böttger",
+      "sprich": "Böttger"
+    },
+    {
+      "wort": "Kießling",
+      "sprich": "Kießling"
+    },
+    {
+      "wort": "Oehme",
+      "sprich": "Öhme"
+    },
+    {
+      "wort": "Kauffungen",
+      "sprich": "Kauffungen"
+    },
+    {
+      "wort": "1455",
+      "sprich": "vierzehnhundertfünfundfünfzig"
+    },
+    {
+      "wort": "1471",
+      "sprich": "vierzehnhunderteinundsiebzig"
+    },
+    {
+      "wort": "1550",
+      "sprich": "fünfzehnhundertfünfzig"
+    },
+    {
+      "wort": "1708",
+      "sprich": "siebzehnhundertacht"
+    },
+    {
+      "wort": "1710",
+      "sprich": "siebzehnhundertzehn"
+    },
+    {
+      "wort": "1719",
+      "sprich": "siebzehnhundertneunzehn"
+    },
+    {
+      "wort": "1720",
+      "sprich": "siebzehnhundertzwanzig"
+    },
+    {
+      "wort": "1871",
+      "sprich": "achtzehnhunderteinundsiebzig"
+    },
+    {
+      "wort": "1875",
+      "sprich": "achtzehnhundertfünfundsiebzig"
+    }
+  ],
+  "stationen": [
+    {
+      "id": "station-1",
+      "nummer": 1,
+      "objekt": "Das Zellengewölbe",
+      "fund": "Fund 1 · Jahr 1471",
+      "ort": {
+        "anzeige": "Gewölbe-Raum",
+        "lehrkraft": "Zellengewölbe gibt es in mehreren Räumen der Burg. Keine öffentliche Quelle nennt den einen Raum für eine Klasse. Den Raum legt die Lehrkraft vor dem Besuch mit der Burg fest; im Klassenraum gilt das Foto.",
+        "quellen": [
+          "sbg-gewoelbe",
+          "saebi-arnold"
+        ]
+      },
+      "mechanik": "Suchen und Scannen",
+      "kompetenz": [
+        "Einblick gewinnen",
+        "Kennen"
+      ],
+      "ereignisse": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ],
+      "lehrplan": [
+        "Sachunterricht GS Kl. 4, Wahlbereich 5: Schlösser, Burgen und Gärten in Sachsen",
+        "Kunst GY Kl. 8: Faszination des Raumes",
+        "Geschichte GY Kl. 6, LB 2: Burgen in Sachsen"
+      ],
+      "bilder": [
+        "zellengewoelbe"
+      ],
+      "texte": {
+        "einleitung": {
+          "einfach": "Ab 1471 baut der Baumeister Arnold von Westfalen dieses Schloss. Er probiert hier etwas Neues aus. Ihr findet es, wenn ihr nach oben schaut.",
+          "leicht": "Dieses Schloss ist sehr alt. Der Bau beginnt 1471. Der Bau·meister heißt Arnold von Westfalen. Er baut hier etwas Neues. Schaut nach oben. Dann findet ihr es.",
+          "quellen": [
+            "saebi-arnold"
+          ]
+        },
+        "plan": {
+          "einfach": "Plan: Stellt euch alle in die Mitte des Raums.",
+          "leicht": "Plan: Geht in die Mitte vom Raum. Alle kommen mit."
+        },
+        "lupe-geheim": {
+          "einfach": "Nur für dich: Die gesuchte Decke sieht aus wie gefaltetes Papier, mit lauter kleinen, spitzen Mulden. Lies das nicht vor. Hilf den anderen mit einer Frage, zum Beispiel: Seht ihr Spitzen?",
+          "leicht": "Nur für dich: Die Decke sieht aus wie gefaltetes Papier. Sie hat viele kleine Spitzen. Lies das nicht vor. Frag die anderen: Seht ihr Spitzen?",
+          "quellen": [
+            "sbg-gewoelbe"
+          ]
+        },
+        "frage": {
+          "einfach": "Welches Muster seht ihr an der Decke?",
+          "leicht": "Welches Muster seht ihr an der Decke?"
+        },
+        "auswahl": {
+          "optionen": [
+            "Gerade Balken",
+            "Lauter spitze Kristalle",
+            "Ein Stern aus Linien"
+          ],
+          "richtig": 1
+        },
+        "fehl-balken": {
+          "einfach": "Noch nicht. Ihr habt die geraden Balken gewählt. Diese Decke sieht anders aus. Schaut noch einmal genau nach oben. Drückt dann „Wir haben nachgesehen“.",
+          "leicht": "Das ist es noch nicht. Ihr habt gerade Balken gewählt. Die Decke hier sieht anders aus. Schaut noch einmal nach oben. Drückt dann: Wir haben nachgesehen."
+        },
+        "fehl-stern": {
+          "einfach": "Noch nicht. Ihr habt den Stern aus Linien gewählt. So eine Decke gibt es auch in der Burg: im Wappensaal, etwa 50 Jahre später gebaut. Schaut hier noch einmal nach oben. Drückt dann „Wir haben nachgesehen“.",
+          "leicht": "Das ist es noch nicht. Ihr habt den Stern gewählt. So eine Decke gibt es auch. Sie ist in einem anderen Raum. Er heißt Wappen·saal. Schaut hier noch einmal nach oben. Drückt dann: Wir haben nachgesehen.",
+          "quellen": [
+            "sbg-episoden"
+          ]
+        },
+        "gesperrt": {
+          "einfach": "Tablet weg. Schaut nach oben. Die Auswahl bleibt gesperrt, bis ihr „Wir haben nachgesehen“ drückt.",
+          "leicht": "Legt das Tablet weg. Schaut nach oben. Danach drückt ihr: Wir haben nachgesehen. Vorher könnt ihr nichts wählen."
+        },
+        "tipp-1": {
+          "einfach": "Tipp 1: Schaut nach oben.",
+          "leicht": "Tipp 1: Schaut nach oben."
+        },
+        "tipp-2": {
+          "einfach": "Tipp 2: Seht ihr eher gerade Linien oder viele Spitzen?",
+          "leicht": "Tipp 2: Seht ihr gerade Linien? Oder viele Spitzen?"
+        },
+        "tipp-3": {
+          "einfach": "Tipp 3: Das Muster mit vielen spitzen Zellen heißt Zellengewölbe.",
+          "leicht": "Tipp 3: Die Decke mit vielen Spitzen heißt Zellen·gewölbe."
+        },
+        "geloest": {
+          "einfach": "Richtig: Das ist ein Zellengewölbe. Es wurde wohl eigens für dieses Schloss erfunden. Später hat man es an vielen Orten nachgebaut.",
+          "leicht": "Richtig! Das ist ein Zellen·gewölbe. Man hat es wohl für dieses Schloss erfunden. Später baut man es an vielen Orten nach.",
+          "quellen": [
+            "sbg-gewoelbe"
+          ]
+        },
+        "nachsehen": {
+          "einfach": "Tablet weg. Schaut noch einmal nach oben: Seht ihr die spitzen Zellen?",
+          "leicht": "Legt das Tablet weg. Schaut noch einmal nach oben. Seht ihr die Spitzen?"
+        },
+        "modell": {
+          "einfach": "Dreht das Gewölbe mit dem Finger oder mit den Pfeilen.",
+          "leicht": "Dreht das Gewölbe. Mit dem Finger oder mit den Pfeilen."
+        },
+        "klassenraum": {
+          "einfach": "Im Klassenraum: Sucht das Muster auf dem Foto der Decke.",
+          "leicht": "Im Klassen·zimmer: Schaut auf das Foto von der Decke. Sucht das Muster."
+        }
+      },
+      "fundkarte": {
+        "vorne": {
+          "titel": "Hier erfunden?",
+          "einfach": "Arnold von Westfalen und seine Leute bauen hier ab 1471 eine neue Art Decke: das Zellengewölbe. Es wurde wohl eigens für dieses Schloss erfunden.",
+          "leicht": "Arnold von Westfalen baut hier ab 1471. Er baut eine neue Art Decke. Sie heißt Zellen·gewölbe. Man hat sie wohl für dieses Schloss erfunden.",
+          "quellen": [
+            "saebi-arnold",
+            "sbg-gewoelbe"
+          ]
+        },
+        "hinten": {
+          "titel": "Oder überall nachgebaut?",
+          "einfach": "Arnolds Steinmetze bauten die Form bald auch anderswo. Bis etwa 1550 gab es Zellengewölbe im ganzen Osten Mitteleuropas. Wie man sie plant, schrieb damals niemand auf. Forscher haben sie deshalb nachgebaut, um es herauszufinden.",
+          "leicht": "Arnold hat Helfer. Sie heißen Stein·metze. Sie bauen die Decke bald auch in anderen Ländern. Damals schreibt niemand auf: Wie plant man so eine Decke? Heute bauen Forscher sie nach. So finden sie es heraus.",
+          "quellen": [
+            "saebi-arnold",
+            "sbg-gewoelbe"
+          ]
+        },
+        "zusatzfrage": {
+          "einfach": "Zusatzfrage: Warum baut man eine Decke aus lauter Falten und Spitzen? Achtet darauf, wie das Licht darauf fällt.",
+          "leicht": "Zusatz·frage: Warum hat die Decke so viele Falten? Schaut auf das Licht an der Decke.",
+          "quellen": [
+            "sbg-gewoelbe"
+          ]
+        }
+      },
+      "spiel": {
+        "ablauf": [
+          "auftrag",
+          "suchen"
+        ],
+        "uebergabe": {
+          "suchen": "Lupe"
+        },
+        "auftrag_burg": "plan",
+        "raumbild": "zellengewoelbe",
+        "kartenbild": "zellengewoelbe",
+        "suchen": {
+          "fehl": [
+            "fehl-balken",
+            null,
+            "fehl-stern"
+          ],
+          "geheim": "lupe-geheim"
+        }
+      }
+    },
+    {
+      "id": "station-2",
+      "nummer": 2,
+      "objekt": "Der Köhler",
+      "fund": "Fund 2 · Jahr 1455",
+      "ort": {
+        "anzeige": "Hofstube",
+        "lehrkraft": "Die Wandbilder zum Prinzenraub von Erwin Oehme (1875) hängen in der Großen Hofstube. Vor dem Besuch mit der Burg prüfen.",
+        "quellen": [
+          "commons-hofstube",
+          "md-koehler"
+        ]
+      },
+      "mechanik": "Dilemma-Entscheidung",
+      "kompetenz": [
+        "Beurteilen / Sich positionieren"
+      ],
+      "ereignisse": [
+        "E4",
+        "E8"
+      ],
+      "lehrplan": [
+        "Sachunterricht GS Kl. 4, LB 5: Kennen des Freistaates Sachsen, Sagen",
+        "Geschichte GY Kl. 6, LB 2: bildliche Quellen"
+      ],
+      "bilder": [
+        "prinzenraub",
+        "koehler",
+        "koehler-detail"
+      ],
+      "texte": {
+        "einleitung": {
+          "einfach": "Im Juli 1455 holt der Ritter Kunz von Kauffungen nachts zwei Prinzen aus dem Schloss in Altenburg: Ernst, 14 Jahre alt, und Albrecht, 11 Jahre alt. Er will ihren Vater, den Kurfürsten, zwingen, ihm verlorenes Land zu ersetzen.",
+          "leicht": "Es ist das Jahr 1455. Ein Ritter heißt Kunz von Kauffungen. Er raubt nachts zwei Prinzen. Sie heißen Ernst und Albrecht. Ernst ist 14 Jahre alt. Albrecht ist 11 Jahre alt. Der Ritter hat Land verloren. Dafür will er etwas vom Vater der Prinzen bekommen.",
+          "quellen": [
+            "md-prinzenraub",
+            "md-koehler"
+          ]
+        },
+        "auftrag": {
+          "einfach": "Sucht zuerst das Wandbild mit dem Köhler. Ein Köhler macht im Wald Holzkohle.",
+          "leicht": "Sucht zuerst das Bild an der Wand. Auf dem Bild ist ein Köhler. Ein Köhler macht im Wald Holz·kohle."
+        },
+        "frage": {
+          "einfach": "Welche Geschichte soll eure Fundkarte erzählen?",
+          "leicht": "Welche Geschichte kommt auf eure Fund·karte?"
+        },
+        "hinweis-stimmen": {
+          "einfach": "Erfundene Stimmen für das Spiel",
+          "leicht": "Diese Stimmen hat sich das Spiel aus·gedacht."
+        },
+        "maler": {
+          "stimme": "erfunden",
+          "label": "So hätte es der Maler erzählt",
+          "label_leicht": "Der Maler",
+          "einfach": "Mein Wandbild in dieser Burg zeigt, wie der junge Prinz Albrecht befreit wird. Ich habe es 1875 gemalt, mehr als 400 Jahre danach. Es soll zeigen, wie eng Fürst und Land zusammengehören.",
+          "leicht": "Ich bin der Maler. Mein Bild zeigt: Prinz Albrecht wird gerettet. Ich male das Bild 1875. Das ist mehr als 400 Jahre später. Das Bild soll zeigen: Fürst und Land gehören zusammen.",
+          "quellen": [
+            "md-koehler",
+            "sbg-episoden"
+          ]
+        },
+        "maler-quelle": {
+          "einfach": "Quelle: Erwin Oehme hat das Wandbild 1875 gemalt. Wer die Bilder der Burg bestellt hat, wollte ein „Denkmal der Liebe zwischen Fürst und Land“.",
+          "leicht": "Quelle: Erwin Oehme malt das Bild 1875. Die Bilder in der Burg sollen zeigen: Fürst und Land halten zusammen.",
+          "quellen": [
+            "md-koehler",
+            "sbg-episoden"
+          ]
+        },
+        "koehler": {
+          "stimme": "erfunden",
+          "label": "So hätte es der Köhler erzählt",
+          "label_leicht": "Der Köhler",
+          "einfach": "Ich habe im Wald Holzkohle gemacht. Dann kamen Reiter mit einem Jungen vorbei. Ich habe nicht lange nachgedacht.",
+          "leicht": "Ich bin der Köhler. Ich mache im Wald Holz·kohle. Da kommen Reiter. Sie haben einen Jungen dabei. Ich helfe dem Jungen sofort.",
+          "quellen": [
+            "md-koehler"
+          ]
+        },
+        "koehler-quelle": {
+          "einfach": "Quelle: Die Volkssage nennt ihn Georg Schmidt. Zum Dank bekam er Holz, ein Gut und einen Adelstitel.",
+          "leicht": "Quelle: Eine alte Sage erzählt: Der Köhler heißt Georg Schmidt. Als Dank bekommt er Holz und einen Bauern·hof.",
+          "quellen": [
+            "md-koehler"
+          ]
+        },
+        "was-die-burg-schreibt": {
+          "einfach": "Was die Burg heute schreibt: Die Geschichte vom Köhler ist eine Sage. Sicher ist: Albrecht konnte noch am selben Tag entkommen und Hilfe holen.",
+          "leicht": "Was die Burg heute sagt: Die Geschichte vom Köhler ist eine Sage. Sicher ist: Albrecht ist noch am selben Tag weg·gelaufen. Er hat Hilfe geholt.",
+          "quellen": [
+            "md-koehler"
+          ]
+        },
+        "abstimmen": {
+          "einfach": "Stimmt mit Handzeichen ab. Wer die Rolle Stift hat, zählt die Stimmen und trägt nur das Ergebnis ein.",
+          "leicht": "Hebt die Hand für eure Wahl. Stift zählt die Hände. Stift tippt nur die Zahl ein."
+        },
+        "auswahl": {
+          "optionen": [
+            "Maler",
+            "Köhler"
+          ]
+        },
+        "gleichstand": {
+          "einfach": "Gleichstand. Redet eine Minute, dann stimmt ihr noch einmal ab.",
+          "leicht": "Es steht gleich. Redet 1 Minute. Dann stimmt noch einmal ab."
+        },
+        "gleichstand-2": {
+          "einfach": "Bleibt es gleich, kommen beide Seiten auf die Karte.",
+          "leicht": "Steht es wieder gleich? Dann kommen beide Geschichten auf die Karte."
+        },
+        "begruenden-koehler": {
+          "einfach": "Ihr wählt die Geschichte des Köhlers. Sie kommt auf die Vorderseite eurer Fundkarte. Warum diese Geschichte?",
+          "leicht": "Ihr wählt den Köhler. Seine Geschichte kommt nach vorne auf die Fund·karte. Warum?",
+          "gruende": [
+            "weil er vielleicht dabei war",
+            "weil man ihn sonst vergisst",
+            "weil das Bild die Fürsten gut aussehen lässt"
+          ],
+          "gruende_leicht": [
+            "Er war vielleicht dabei.",
+            "Sonst vergisst man ihn.",
+            "Das Bild lobt nur die Fürsten."
+          ]
+        },
+        "begruenden-maler": {
+          "einfach": "Ihr wählt die Geschichte des Malers. Sie kommt auf die Vorderseite eurer Fundkarte. Warum diese Geschichte?",
+          "leicht": "Ihr wählt den Maler. Seine Geschichte kommt nach vorne auf die Fund·karte. Warum?",
+          "gruende": [
+            "weil sein Bild bis heute hier hängt",
+            "weil alle das Bild sehen können",
+            "weil es den Prinzen zeigt"
+          ],
+          "gruende_leicht": [
+            "Das Bild hängt bis heute hier.",
+            "Alle können das Bild sehen.",
+            "Das Bild zeigt den Prinzen."
+          ]
+        },
+        "eigener-grund": {
+          "einfach": "Eigener Grund (ohne Namen)",
+          "leicht": "Euer eigener Grund. Schreibt keine Namen."
+        },
+        "klassenraum": {
+          "einfach": "Im Klassenraum: Sucht auf dem Bild den Mann mit dem langen Stock.",
+          "leicht": "Im Klassen·zimmer: Schaut auf das Bild. Sucht den Mann mit dem langen Stock."
+        }
+      },
+      "fundkarte": {
+        "vorne-koehler": {
+          "titel": "Wer ist hier der Held?",
+          "einfach": "Ein Köhler aus dem Wald rettet den Prinzen Albrecht. So erzählt es die Sage.",
+          "leicht": "Ein Köhler rettet Prinz Albrecht. So erzählt es eine alte Sage.",
+          "quellen": [
+            "md-koehler"
+          ]
+        },
+        "vorne-maler": {
+          "titel": "Wer ist hier der Held?",
+          "einfach": "Der Maler zeigt die Rettung als großes Bild für Fürst und Land.",
+          "leicht": "Der Maler zeigt die Rettung. Das Bild ist für Fürst und Land.",
+          "quellen": [
+            "sbg-episoden"
+          ]
+        },
+        "vorne-beide": {
+          "titel": "Wer ist hier der Held?",
+          "einfach": "Ihr habt euch nicht geeinigt. Beide Geschichten kommen auf die Karte: die Sage vom Köhler und das Bild des Malers.",
+          "leicht": "Ihr habt euch nicht geeinigt. Darum kommen beide Geschichten auf die Karte."
+        },
+        "hinten": {
+          "titel": "Wer bezahlt das Bild?",
+          "einfach": "Das Bild entstand 1875, 420 Jahre nach dem Raub. Bezahlt wurden die Bilder dieser Burg zum Teil mit Geld, das Frankreich nach dem verlorenen Krieg 1871 zahlen musste. Sie sollten Fürst und Land zusammen zeigen.",
+          "leicht": "Das Bild ist von 1875. Das ist 420 Jahre nach dem Raub. Wer bezahlt das Bild? Frankreich hat 1871 einen Krieg verloren. Danach muss Frankreich viel Geld zahlen. Ein Teil davon bezahlt die Bilder in dieser Burg.",
+          "quellen": [
+            "sbg-episoden",
+            "md-koehler"
+          ]
+        },
+        "zusatzfrage": {
+          "einfach": "Zusatzfrage: Wer bestimmt, welche Geschichte an der Wand einer Burg hängt?",
+          "leicht": "Zusatz·frage: Wer sucht aus, welche Bilder in einer Burg hängen?"
+        }
+      },
+      "spiel": {
+        "ablauf": [
+          "auftrag",
+          "abstimmen",
+          "begruenden"
+        ],
+        "uebergabe": {
+          "abstimmen": "Stift"
+        },
+        "einleitungsbild": "prinzenraub-crop",
+        "auftrag_burg": "auftrag",
+        "raumbild": "koehler",
+        "kartenbild": "koehler-crop",
+        "abstimmung": {
+          "frage": "frage",
+          "stimmen": [
+            "maler",
+            "koehler"
+          ]
+        }
+      }
+    },
+    {
+      "id": "station-3",
+      "nummer": 3,
+      "objekt": "Weißes Gold",
+      "fund": "Fund 3 · Jahr 1710",
+      "ort": {
+        "anzeige": "Böttgerzimmer",
+        "lehrkraft": "Zwei Wandbilder von Paul Kießling (1875) zu Böttger in einer ehemaligen Schlafkammer, dem Böttgerzimmer. Im Klassenraum gelten die Postkarten.",
+        "quellen": [
+          "md-boettger-labor"
+        ]
+      },
+      "mechanik": "Teamrätsel mit Rollen, dann Dilemma-Entscheidung",
+      "kompetenz": [
+        "Anwenden",
+        "Beurteilen / Sich positionieren"
+      ],
+      "ereignisse": [
+        "E7",
+        "E8"
+      ],
+      "lehrplan": [
+        "Sachunterricht GS Kl. 4, Wahlbereich 4: Ein Produkt unseres Landes",
+        "Geographie OS, Wahlbereich: Rund um die Bodenschätze Sachsens"
+      ],
+      "bilder": [
+        "boettger",
+        "arkana"
+      ],
+      "texte": {
+        "einleitung": {
+          "einfach": "Johann Friedrich Böttger soll für August den Starken Gold machen. Er wird bewacht und darf nicht weg. Gold macht er nie. Aber mit anderen Forschern findet er etwas Neues: weißes Porzellan.",
+          "leicht": "Hier geht es um Johann Friedrich Böttger. August der Starke ist der Herrscher. Er will Gold. Böttger soll das Gold machen. Er wird bewacht. Er darf nicht weg·gehen. Gold macht er nie. Aber er findet mit anderen Forschern etwas Neues: weißes Porzellan.",
+          "quellen": [
+            "ndb-boettger",
+            "md-boettger-labor",
+            "volke-2010"
+          ]
+        },
+        "frage": {
+          "einfach": "Was braucht weißes Porzellan?",
+          "leicht": "Was braucht man für weißes Porzellan?"
+        },
+        "regel": {
+          "einfach": "Jede Rolle hat einen Teil des Rezepts. Tippt auf euren Teil, dann lest ihn vor. Legt die Zutaten in die Schale.",
+          "leicht": "Jede Rolle hat einen Teil vom Rezept. Tippt auf euren Teil. Lest ihn vor. Legt die Zutaten in die Schale."
+        },
+        "teil-plan": {
+          "rolle": "Plan",
+          "einfach": "Eine weiße Erde. Ihr Name kommt aus dem Chinesischen und heißt „hoher Hügel“.",
+          "leicht": "Eine weiße Erde. Der Name kommt aus China. Er heißt: hoher Hügel.",
+          "loesung": "Kaolin",
+          "quellen": [
+            "volke-2010"
+          ]
+        },
+        "teil-lupe": {
+          "rolle": "Lupe",
+          "einfach": "Ein harter, heller Stein. Ganz fein gemahlen.",
+          "leicht": "Ein harter, heller Stein. Ganz fein gemahlen.",
+          "loesung": "Quarz",
+          "quellen": [
+            "volke-2010"
+          ]
+        },
+        "teil-stift": {
+          "rolle": "Stift",
+          "einfach": "Es schmilzt im Feuer zuerst und hält alles zusammen. Böttger nahm dafür Alabaster. Heute nimmt man Feldspat.",
+          "leicht": "Es schmilzt im Feuer zuerst. Es hält alles zusammen. Böttger nimmt dafür Alabaster. Heute nimmt man Feld·spat.",
+          "loesung": "Ein Flussmittel",
+          "quellen": [
+            "volke-2010"
+          ]
+        },
+        "zutaten": {
+          "optionen": [
+            "Kaolin",
+            "Quarz",
+            "Ein Flussmittel",
+            "Gold",
+            "Salz"
+          ],
+          "richtig": [
+            0,
+            1,
+            2
+          ]
+        },
+        "zu-wenig": {
+          "einfach": "Erst drei Zutaten in die Schale.",
+          "leicht": "Legt zuerst 3 Zutaten in die Schale."
+        },
+        "fehl-gold": {
+          "einfach": "Gold sollte Böttger machen. Ins Porzellan gehört es nicht. Lupe: Lies das Schild unten am Wandbild mit dem Ofen.",
+          "leicht": "Böttger soll Gold machen. Aber Gold kommt nicht ins Porzellan. Lupe: Lies das Schild unten am Bild mit dem Ofen.",
+          "quellen": [
+            "ndb-boettger",
+            "commons-eichmann-220"
+          ]
+        },
+        "fehl-salz": {
+          "einfach": "Salz gehört nicht ins Rezept. Lest eure drei Teile noch einmal vor.",
+          "leicht": "Salz kommt nicht hinein. Lest eure 3 Teile noch einmal vor.",
+          "quellen": [
+            "volke-2010"
+          ]
+        },
+        "tablet-weg": {
+          "einfach": "Tablet weg. Sucht das Wandbild mit dem Ofen. Unten steht auf einem Schild, was Böttger hier machen sollte.",
+          "leicht": "Legt das Tablet weg. Sucht das Bild mit dem Ofen. Unten ist ein Schild. Dort steht: Was soll Böttger hier machen?",
+          "quellen": [
+            "md-boettger-labor",
+            "commons-eichmann-220"
+          ]
+        },
+        "brennen": {
+          "einfach": "Sehr heiß brennen",
+          "leicht": "Sehr heiß brennen"
+        },
+        "geloest": {
+          "einfach": "Richtig: Kaolin, Quarz und ein Flussmittel, ganz fein gemahlen. Dann kommt alles in den Ofen. In Meißen brennt man Porzellan heute bei 1380 bis 1450 Grad.",
+          "leicht": "Richtig! Ihr braucht Kaolin, Quarz und ein Fluss·mittel. Alles wird ganz fein gemahlen. Dann kommt es in einen Ofen. Der Ofen ist sehr heiß: über 1380 Grad.",
+          "quellen": [
+            "volke-2010"
+          ]
+        },
+        "frage-geheimnis": {
+          "einfach": "Soll Sachsen das Geheimnis behalten?",
+          "leicht": "Soll Sachsen das Geheimnis für sich behalten?"
+        },
+        "hinweis-stimmen": {
+          "einfach": "Erfundene Stimmen für das Spiel",
+          "leicht": "Diese Stimmen hat sich das Spiel aus·gedacht."
+        },
+        "august": {
+          "stimme": "erfunden",
+          "label": "So hätte es August der Starke gesehen",
+          "label_leicht": "August der Starke",
+          "einfach": "Das Porzellan wird verkauft und füllt meine Kassen. Niemand darf das Rezept kennen.",
+          "leicht": "Ich bin August, der Herrscher. Wir verkaufen das Porzellan. So bekomme ich viel Geld. Niemand darf das Rezept kennen.",
+          "quellen": [
+            "sbg-episoden"
+          ]
+        },
+        "august-quelle": {
+          "einfach": "Quelle: Der Verkauf des „Weißen Goldes“ sollte die Kassen des Königs füllen.",
+          "leicht": "Quelle: Der König will mit dem Porzellan Geld verdienen.",
+          "quellen": [
+            "sbg-episoden"
+          ]
+        },
+        "boettger": {
+          "stimme": "erfunden",
+          "label": "So hätte es Böttger gesehen",
+          "label_leicht": "Böttger",
+          "einfach": "Ich kenne das Geheimnis. Deshalb darf ich nicht gehen. Ist das gerecht?",
+          "leicht": "Ich bin Böttger. Ich kenne das Geheimnis. Darum darf ich nicht weg·gehen. Ist das gerecht?",
+          "quellen": [
+            "ndb-boettger"
+          ]
+        },
+        "boettger-quelle": {
+          "einfach": "Quelle: Böttger wurde bewacht. Bis zu seinem Tod 1719 bat er um seine Freiheit.",
+          "leicht": "Quelle: Böttger wird bewacht. Er bittet oft um seine Freiheit.",
+          "quellen": [
+            "ndb-boettger"
+          ]
+        },
+        "abstimmen": {
+          "einfach": "Stimmt mit Handzeichen ab. Wer die Rolle Stift hat, zählt die Stimmen und trägt nur das Ergebnis ein.",
+          "leicht": "Hebt die Hand für eure Wahl. Stift zählt die Hände. Stift tippt nur die Zahl ein."
+        },
+        "auswahl": {
+          "optionen": [
+            "Behalten",
+            "Teilen"
+          ]
+        },
+        "gleichstand": {
+          "einfach": "Gleichstand. Redet eine Minute, dann stimmt ihr noch einmal ab.",
+          "leicht": "Es steht gleich. Redet 1 Minute. Dann stimmt noch einmal ab."
+        },
+        "gleichstand-2": {
+          "einfach": "Bleibt es gleich, kommen beide Seiten auf die Karte.",
+          "leicht": "Steht es wieder gleich? Dann kommen beide Seiten auf die Karte."
+        },
+        "klassenraum": {
+          "einfach": "Im Klassenraum: Lest die Schrift unten auf der Postkarte mit dem Labor.",
+          "leicht": "Im Klassen·zimmer: Schaut auf die Post·karte mit dem Labor. Lest die Schrift unten."
+        }
+      },
+      "fundkarte": {
+        "vorne": {
+          "titel": "Erfunden in Sachsen?",
+          "einfach": "Im Januar 1708 gelingt in Dresden das erste weiße Porzellan. 1710 zieht die neue Manufaktur in diese leere Burg. Hier ist das Geheimnis sicher.",
+          "leicht": "1708 gibt es in Dresden zum ersten Mal weißes Porzellan. 1710 kommt die Porzellan·fabrik in diese Burg. Die Burg ist leer. Hier ist das Geheimnis sicher.",
+          "quellen": [
+            "volke-2010",
+            "md-arkana"
+          ]
+        },
+        "eure-wahl": {
+          "einfach": "Eure Wahl: {wahl}",
+          "leicht": "Eure Wahl: {wahl}",
+          "werte": [
+            "Behalten",
+            "Teilen",
+            "beide Seiten"
+          ]
+        },
+        "hinten": {
+          "titel": "Oder nachgemacht?",
+          "einfach": "Porzellan aus China war an Europas Fürstenhöfen schon lange begehrt. In Sachsen musste man erst herausfinden, wie man es selbst macht. Böttger war dabei nicht frei. Und das Geheimnis hielt nicht lange: Ab 1720 gab es auch Porzellan aus Wien.",
+          "leicht": "Porzellan aus China ist schon lange beliebt. In Sachsen weiß man nicht: Wie macht man das? Das muss man erst heraus·finden. Böttger ist dabei nicht frei. Das Geheimnis hält nicht lange. Ab 1720 gibt es auch Porzellan aus Wien.",
+          "quellen": [
+            "meissen-manufaktur",
+            "ndb-boettger"
+          ]
+        },
+        "zusatzfrage": {
+          "einfach": "Zusatzfrage: Das andere Wandbild zeigt die Erfindung hier in der Burg. Die Burg schreibt heute: Das stimmt nicht, sie gelang in Dresden. Warum malt man es trotzdem so?",
+          "leicht": "Zusatz·frage: Ein Bild zeigt: Das Porzellan wurde hier erfunden. Das stimmt nicht. Es war in Dresden. Warum malt der Maler es so?",
+          "quellen": [
+            "md-arkana"
+          ]
+        }
+      },
+      "spiel": {
+        "ablauf": [
+          "auftrag",
+          "raetsel",
+          "abstimmen"
+        ],
+        "uebergabe": {
+          "abstimmen": "Stift"
+        },
+        "auftrag_burg": "tablet-weg",
+        "raumbild": "boettger",
+        "kartenbild": "boettger-crop",
+        "kartenbild_hinten": "arkana",
+        "raetsel": {
+          "teile": [
+            "teil-plan",
+            "teil-lupe",
+            "teil-stift"
+          ],
+          "fehl": [
+            null,
+            null,
+            null,
+            "fehl-gold",
+            "fehl-salz"
+          ]
+        },
+        "abstimmung": {
+          "frage": "frage-geheimnis",
+          "stimmen": [
+            "august",
+            "boettger"
+          ]
+        }
+      }
+    }
+  ],
+  "demo": {
+    "klassencode": "BURG25",
+    "gruppengroesse": [
+      3,
+      4,
+      5
+    ],
+    "tiere": [
+      "Dachs",
+      "Eule",
+      "Luchs",
+      "Biber"
+    ],
+    "rollen": [
+      "Plan",
+      "Lupe",
+      "Stift"
+    ],
+    "saetze": [
+      "erfinderisch",
+      "stolz",
+      "streitlustig",
+      "vielfältig"
+    ],
+    "zeichen_vorschlag": [
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "zeigt": [
+      [
+        "Mobile Web-App mit Spielelementen",
+        "Der ganze Ablauf: drei Stationen, drei Minispiele, Fundkarten, Vitrine. Läuft nach dem ersten Laden ohne Netz und lässt sich installieren."
+      ],
+      [
+        "Barrierefreiheit (WCAG 2.1 AA)",
+        "Einfache und Leichte Sprache auf jedem Bildschirm, Schrift größer, Bedienung mit Tastatur und Screenreader, große Schaltflächen. Vorlesen mit vorab erzeugten Audios folgt."
+      ],
+      [
+        "Open Source",
+        "Der Quellcode steht unter EUPL 1.2 offen."
+      ],
+      [
+        "Datenschutz",
+        "Keine Konten, keine Cookies, keine Anfragen an Dritte. Die Gruppe heißt nach einem Tier, Gründe stehen ohne Namen auf den Karten. Der Spielstand bleibt auf dem Gerät."
+      ],
+      [
+        "Bildung und Kultur",
+        "Jede Station nennt ihre Kompetenzstufen aus dem Leistungsverzeichnis und ihre Lehrplanbezüge. Jede Sachaussage hat eine Quelle, alle Bilder sind frei lizenziert."
+      ],
+      [
+        "Mitentwicklung",
+        "Zuerst würden Kinder und Lehrkräfte prüfen: Wie oft wird das Tablet weitergegeben? Reichen die Tipps? Ist die Abstimmung fair?"
+      ]
+    ],
+    "minispiele": "Die drei Minispiele (Suchen und Finden, Abstimmen und Begründen, Teamrätsel mit Rollen) sind Bausteine. Sie lesen ihre Texte, Optionen und Lösungen aus einer Inhaltsdatei; eine neue Station braucht keinen neuen Code."
+  },
+  "rahmen": {
+    "titel": {
+      "einfach": "Was ist sächsisch?",
+      "leicht": "Was ist sächsisch?"
+    },
+    "start-text": {
+      "einfach": "Ihr löst Aufgaben an drei Stationen in der Albrechtsburg. An jeder Station bekommt ihr eine Fundkarte. Am Ende gestaltet ihr eure eigene Vitrine.",
+      "leicht": "Ihr spielt in der Albrechts·burg. Es gibt 3 Stationen. An jeder Station bekommt ihr eine Fund·karte. Am Ende baut ihr eure eigene Vitrine."
+    },
+    "angebot": {
+      "einfach": "Diese Demo gehört zum Angebot von CDiT für die öffentliche Ausschreibung klasseSachsen.",
+      "leicht": "Diese Demo ist von CDiT. Sie gehört zu einem Angebot für klasseSachsen."
+    },
+    "klasse": {
+      "einfach": "Mit der Klasse spielen",
+      "leicht": "Mit der Klasse spielen"
+    },
+    "klasse-sub": {
+      "einfach": "Code von eurer Lehrkraft eingeben",
+      "leicht": "Ihr bekommt einen Code von eurer Lehr·kraft."
+    },
+    "allein": {
+      "einfach": "Allein ausprobieren",
+      "leicht": "Allein ausprobieren"
+    },
+    "allein-sub": {
+      "einfach": "Du übernimmst alle drei Rollen.",
+      "leicht": "Du spielst alle 3 Rollen."
+    },
+    "demo-zeigt": {
+      "einfach": "Was diese Demo zeigt",
+      "leicht": "Was diese Demo zeigt"
+    },
+    "quellen-link": {
+      "einfach": "Quellen und Bilder",
+      "leicht": "Quellen und Bilder"
+    },
+    "weiterspielen": {
+      "einfach": "Weiterspielen",
+      "leicht": "Weiterspielen"
+    },
+    "code-titel": {
+      "einfach": "Code eingeben",
+      "leicht": "Code eingeben"
+    },
+    "code-text": {
+      "einfach": "Den Code bekommt ihr von eurer Lehrkraft.",
+      "leicht": "Den Code gibt euch eure Lehr·kraft."
+    },
+    "code-fehler": {
+      "einfach": "Diesen Code gibt es nicht. Prüft jedes Zeichen und versucht es noch einmal.",
+      "leicht": "Diesen Code gibt es nicht. Schaut jedes Zeichen genau an. Versucht es noch einmal."
+    },
+    "code-demo": {
+      "einfach": "Für die Demo: Code {code}",
+      "leicht": "Für die Demo: Code {code}"
+    },
+    "ohne-code": {
+      "einfach": "Ohne Code ausprobieren",
+      "leicht": "Ohne Code ausprobieren"
+    },
+    "zurueck": {
+      "einfach": "Zurück",
+      "leicht": "Zurück"
+    },
+    "weiter": {
+      "einfach": "Weiter",
+      "leicht": "Weiter"
+    },
+    "gruppe-titel": {
+      "einfach": "Wer seid ihr?",
+      "leicht": "Wer seid ihr?"
+    },
+    "tiername": {
+      "einfach": "Sucht euch einen Tiernamen aus.",
+      "leicht": "Sucht einen Tier·namen aus."
+    },
+    "groesse": {
+      "einfach": "Wie viele seid ihr?",
+      "leicht": "Wie viele Kinder seid ihr?"
+    },
+    "ort-frage": {
+      "einfach": "Wo spielt ihr?",
+      "leicht": "Wo spielt ihr?"
+    },
+    "ort-burg": {
+      "einfach": "In der Burg",
+      "leicht": "In der Burg"
+    },
+    "ort-klasse": {
+      "einfach": "Im Klassenraum",
+      "leicht": "Im Klassen·zimmer"
+    },
+    "rollen-titel": {
+      "einfach": "Verteilt die Rollen.",
+      "leicht": "Verteilt die Rollen."
+    },
+    "rolle-plan": {
+      "einfach": "Plan findet den Weg.",
+      "leicht": "Plan findet den Weg."
+    },
+    "rolle-lupe": {
+      "einfach": "Lupe liest die Quelle im Raum.",
+      "leicht": "Lupe liest, was im Raum steht."
+    },
+    "rolle-stift": {
+      "einfach": "Stift zählt und trägt ein.",
+      "leicht": "Stift zählt und tippt ein."
+    },
+    "rollen-teilen": {
+      "einfach": "Seid ihr vier oder fünf? Dann teilen sich zwei eine Rolle. Danach nimmt Stift das Tablet.",
+      "leicht": "Seid ihr 4 oder 5? Dann haben 2 Kinder dieselbe Rolle. Danach nimmt Stift das Tablet."
+    },
+    "zeichen-text": {
+      "einfach": "Früher haben Steinmetze ihr Zeichen in die Steine gehauen. Zeichnet jetzt euer eigenes: Tippt zwei Punkte nacheinander an, dann verbindet eine Linie sie.",
+      "leicht": "Früher hatten Stein·metze ein eigenes Zeichen. Sie haben es in die Steine gehauen. Malt jetzt euer Zeichen: Tippt 2 Punkte an. Dann kommt eine Linie dazwischen."
+    },
+    "rueckgaengig": {
+      "einfach": "Rückgängig",
+      "leicht": "Rückgängig"
+    },
+    "vorschlagen": {
+      "einfach": "Zeichen vorschlagen",
+      "leicht": "Zeichen vorschlagen"
+    },
+    "los": {
+      "einfach": "Los geht's",
+      "leicht": "Los geht's"
+    },
+    "gruppe": {
+      "einfach": "Gruppe {tier}",
+      "leicht": "Gruppe {tier}"
+    },
+    "am-tablet": {
+      "einfach": "Am Tablet",
+      "leicht": "Am Tablet"
+    },
+    "alle": {
+      "einfach": "alle",
+      "leicht": "alle"
+    },
+    "einfach": {
+      "einfach": "Einfache Sprache",
+      "leicht": "Einfache Sprache"
+    },
+    "leicht": {
+      "einfach": "Leichte Sprache",
+      "leicht": "Leichte Sprache"
+    },
+    "groesser": {
+      "einfach": "Schrift größer",
+      "leicht": "Schrift größer"
+    },
+    "sprache": {
+      "einfach": "Sprache",
+      "leicht": "Sprache"
+    },
+    "vitrine-text": {
+      "einfach": "Drei Stationen, drei Fundkarten. Am Ende gestaltet ihr eure eigene Vitrine.",
+      "leicht": "Es gibt 3 Stationen und 3 Fund·karten. Am Ende baut ihr eure eigene Vitrine."
+    },
+    "leer": {
+      "einfach": "Noch leer. Wartet hier: {ort}",
+      "leicht": "Noch leer. Ort: {ort}"
+    },
+    "naechste": {
+      "einfach": "Gebt das Tablet an die Person mit der Rolle Plan. Sie führt euch zur nächsten Station: {ort}.",
+      "leicht": "Gebt das Tablet an Plan. Plan führt euch zur nächsten Station: {ort}."
+    },
+    "zu-station": {
+      "einfach": "Zur Station {n}",
+      "leicht": "Zur Station {n}"
+    },
+    "alle-gefunden": {
+      "einfach": "Alle drei Fundkarten liegen in der Vitrine. Jetzt gestaltet ihr sie gemeinsam.",
+      "leicht": "Alle 3 Fund·karten sind in der Vitrine. Jetzt baut ihr die Vitrine zusammen."
+    },
+    "gestalten-los": {
+      "einfach": "Vitrine gestalten",
+      "leicht": "Vitrine gestalten"
+    },
+    "uebergabe": {
+      "einfach": "Die Rolle {rolle} ist jetzt dran.",
+      "leicht": "Jetzt ist {rolle} dran."
+    },
+    "uebergabe-Plan": {
+      "einfach": "Mit dem Plan der Burg findest du den Weg. Führe die Gruppe zur nächsten Station.",
+      "leicht": "Du findest den Weg. Führe die Gruppe zur nächsten Station."
+    },
+    "uebergabe-Lupe": {
+      "einfach": "Du liest, was im Raum steht. Und du bekommst einen geheimen Hinweis.",
+      "leicht": "Du liest, was im Raum steht. Du bekommst einen geheimen Hinweis."
+    },
+    "uebergabe-Stift": {
+      "einfach": "Du zählst die Stimmen und tippst das Ergebnis ein.",
+      "leicht": "Du zählst die Stimmen. Du tippst das Ergebnis ein."
+    },
+    "uebergabe-ok": {
+      "einfach": "Ich habe das Tablet",
+      "leicht": "Ich habe das Tablet"
+    },
+    "allein-banner": {
+      "einfach": "Du spielst allein. Jetzt bist du {rolle}.",
+      "leicht": "Du spielst allein. Jetzt bist du {rolle}."
+    },
+    "station": {
+      "einfach": "Station {n} · {ort}",
+      "leicht": "Station {n} · {ort}"
+    },
+    "schritt": {
+      "einfach": "Schritt {i} von {k}",
+      "leicht": "Schritt {i} von {k}"
+    },
+    "wir-sind-da": {
+      "einfach": "Wir sind da",
+      "leicht": "Wir sind da"
+    },
+    "tipps-frei": {
+      "einfach": "Tipps kosten nichts.",
+      "leicht": "Tipps sind frei."
+    },
+    "tipp-zeigen": {
+      "einfach": "Tipp {n} zeigen",
+      "leicht": "Tipp {n} zeigen"
+    },
+    "nachgesehen": {
+      "einfach": "Wir haben nachgesehen",
+      "leicht": "Wir haben nachgesehen"
+    },
+    "gesperrt-grund": {
+      "einfach": "Erst nachsehen, dann neu wählen.",
+      "leicht": "Erst nachsehen. Dann neu wählen."
+    },
+    "geheim": {
+      "einfach": "Geheimer Hinweis für Lupe",
+      "leicht": "Geheimer Hinweis für Lupe"
+    },
+    "zeigen": {
+      "einfach": "Zeigen",
+      "leicht": "Zeigen"
+    },
+    "verdecken": {
+      "einfach": "Verdecken",
+      "leicht": "Verdecken"
+    },
+    "zur-fundkarte": {
+      "einfach": "Zur Fundkarte",
+      "leicht": "Zur Fund·karte"
+    },
+    "stimmen-gezaehlt": {
+      "einfach": "{a} von {b} Stimmen gezählt",
+      "leicht": "{a} von {b} Stimmen gezählt"
+    },
+    "zu-viele": {
+      "einfach": "Das sind mehr Stimmen als Kinder in der Gruppe. Zählt noch einmal.",
+      "leicht": "Das sind zu viele Stimmen. Zählt noch einmal."
+    },
+    "keine-stimme": {
+      "einfach": "Zählt zuerst die Stimmen.",
+      "leicht": "Zählt zuerst die Hände."
+    },
+    "stimme-mehr": {
+      "einfach": "Eine Stimme mehr für {wahl}",
+      "leicht": "Eine Stimme mehr für {wahl}"
+    },
+    "stimme-weniger": {
+      "einfach": "Eine Stimme weniger für {wahl}",
+      "leicht": "Eine Stimme weniger für {wahl}"
+    },
+    "ergebnis": {
+      "einfach": "Ergebnis eintragen",
+      "leicht": "Ergebnis eintragen"
+    },
+    "nochmal": {
+      "einfach": "Nochmal abstimmen",
+      "leicht": "Noch einmal abstimmen"
+    },
+    "quellen": {
+      "einfach": "Quellen",
+      "leicht": "Quellen"
+    },
+    "quellen-zu": {
+      "einfach": "Quellen ausblenden",
+      "leicht": "Quellen ausblenden"
+    },
+    "grund-waehlen": {
+      "einfach": "Wählt einen Grund. Eure Meinung zählt.",
+      "leicht": "Wählt einen Grund. Eure Meinung ist wichtig."
+    },
+    "grund-platzhalter": {
+      "einfach": "weil … (ohne Namen)",
+      "leicht": "weil … (ohne Namen)"
+    },
+    "grund-hilfe": {
+      "einfach": "Euer Grund kommt auf die Karte und ins Bild. Schreibt keine Namen.",
+      "leicht": "Euer Grund kommt auf die Karte. Schreibt keine Namen."
+    },
+    "auf-karte": {
+      "einfach": "Auf die Fundkarte schreiben",
+      "leicht": "Auf die Fund·karte schreiben"
+    },
+    "teil-von": {
+      "einfach": "Teil von {rolle}",
+      "leicht": "Teil von {rolle}"
+    },
+    "schale": {
+      "einfach": "Die Schale",
+      "leicht": "Die Schale"
+    },
+    "noch-frei": {
+      "einfach": "Noch frei",
+      "leicht": "Noch frei"
+    },
+    "zutaten-hilfe": {
+      "einfach": "Tippt eine Zutat an. Dann kommt sie in die Schale.",
+      "leicht": "Tippt eine Zutat an. Sie kommt in die Schale."
+    },
+    "entfernen": {
+      "einfach": "{zutat} aus der Schale nehmen",
+      "leicht": "{zutat} aus der Schale nehmen"
+    },
+    "in-der-schale": {
+      "einfach": "schon in der Schale",
+      "leicht": "schon in der Schale"
+    },
+    "vorderseite": {
+      "einfach": "Vorderseite",
+      "leicht": "Vorderseite"
+    },
+    "rueckseite": {
+      "einfach": "Rückseite",
+      "leicht": "Rückseite"
+    },
+    "umdrehen": {
+      "einfach": "Fundkarte umdrehen",
+      "leicht": "Fund·karte umdrehen"
+    },
+    "ablegen": {
+      "einfach": "In die Vitrine legen",
+      "leicht": "In die Vitrine legen"
+    },
+    "erst-umdrehen": {
+      "einfach": "Dreht zuerst die Fundkarte um. Legt sie dann in eure Vitrine.",
+      "leicht": "Dreht zuerst die Fund·karte um. Dann legt sie in die Vitrine."
+    },
+    "karte-neu": {
+      "einfach": "Ihr habt eine neue Fundkarte. Sie hat zwei Seiten. Dreht sie um.",
+      "leicht": "Ihr habt eine neue Fund·karte. Sie hat 2 Seiten. Dreht sie um."
+    },
+    "euer-grund": {
+      "einfach": "Euer Grund: {grund}",
+      "leicht": "Euer Grund: {grund}"
+    },
+    "eure-wahl": {
+      "einfach": "Eure Wahl: {wahl}",
+      "leicht": "Eure Wahl: {wahl}"
+    },
+    "beide-seiten": {
+      "einfach": "beide Seiten",
+      "leicht": "beide Seiten"
+    },
+    "erfasst": {
+      "einfach": "Erfasst",
+      "leicht": "Erfasst"
+    },
+    "zusatzfrage": {
+      "einfach": "Zusatzfrage",
+      "leicht": "Zusatz·frage"
+    },
+    "gestalten-titel": {
+      "einfach": "Gestaltet eure Vitrine",
+      "leicht": "Gestaltet eure Vitrine"
+    },
+    "gestalten-text": {
+      "einfach": "Ordnet eure drei Fundkarten an. Wählt dann einen Satz.",
+      "leicht": "Legt eure 3 Fund·karten hin. Wählt dann einen Satz."
+    },
+    "sachsen-ist": {
+      "einfach": "Sachsen ist …",
+      "leicht": "Sachsen ist …"
+    },
+    "eigener-satz": {
+      "einfach": "Eigener Satz (ohne Namen)",
+      "leicht": "Eigener Satz. Schreibt keine Namen."
+    },
+    "tausch-hilfe": {
+      "einfach": "Tippt eine Karte an und dann den Platz, an den sie soll.",
+      "leicht": "Tippt auf eine Karte. Dann tippt auf den neuen Platz."
+    },
+    "ausgewaehlt": {
+      "einfach": "{objekt} ist ausgewählt. Tippt jetzt den neuen Platz an.",
+      "leicht": "{objekt} ist gewählt. Tippt jetzt auf den neuen Platz."
+    },
+    "platz": {
+      "einfach": "Platz {n}",
+      "leicht": "Platz {n}"
+    },
+    "fertig": {
+      "einfach": "Fertig",
+      "leicht": "Fertig"
+    },
+    "ende-titel": {
+      "einfach": "Hier ist eure Vitrine.",
+      "leicht": "Hier ist eure Vitrine."
+    },
+    "ende-text": {
+      "einfach": "Speichert das Bild. Dann gebt das Tablet eurer Lehrkraft.",
+      "leicht": "Speichert das Bild. Dann gebt das Tablet eurer Lehr·kraft."
+    },
+    "speichern": {
+      "einfach": "Bild speichern",
+      "leicht": "Bild speichern"
+    },
+    "bild-wird": {
+      "einfach": "Das Bild wird gemacht …",
+      "leicht": "Das Bild wird gemacht …"
+    },
+    "nochmal-spielen": {
+      "einfach": "Noch einmal spielen",
+      "leicht": "Noch einmal spielen"
+    },
+    "neu-sicher": {
+      "einfach": "Wirklich neu anfangen? Eure Fundkarten sind dann weg.",
+      "leicht": "Wirklich neu anfangen? Dann sind eure Fund·karten weg."
+    },
+    "ja-neu": {
+      "einfach": "Ja, neu anfangen",
+      "leicht": "Ja, neu anfangen"
+    },
+    "offline": {
+      "einfach": "Kein Netz. Das Spiel läuft trotzdem weiter.",
+      "leicht": "Kein Internet. Ihr könnt trotzdem weiter·spielen."
+    },
+    "euer-versuch": {
+      "einfach": "Euer Versuch",
+      "leicht": "Euer Versuch"
+    },
+    "begruenden-titel": {
+      "einfach": "Warum diese Wahl?",
+      "leicht": "Warum?"
+    },
+    "ende-gemacht": {
+      "einfach": "Das habt ihr gemacht",
+      "leicht": "Das habt ihr gemacht"
+    },
+    "satz-fehlt": {
+      "einfach": "Wählt zuerst einen Satz.",
+      "leicht": "Wählt zuerst einen Satz."
+    },
+    "lehrplan": {
+      "einfach": "Lehrplan: {lp}",
+      "leicht": "Lehrplan: {lp}"
+    }
+  },
+  "ende": {
+    "einleitung": {
+      "einfach": "So habt ihr gearbeitet. Es gibt keine Punkte und keine Noten.",
+      "leicht": "So habt ihr gearbeitet. Es gibt keine Punkte. Es gibt keine Noten."
+    },
+    "stufen": {
+      "einfach": "Kompetenzstufen: {stufen}",
+      "leicht": "Das habt ihr geübt: {stufen}"
+    },
+    "suchen-erster": {
+      "einfach": "Ihr habt im Raum nachgesehen und die Antwort gleich gefunden.",
+      "leicht": "Ihr habt im Raum nach·gesehen. Ihr habt die Antwort gleich gefunden."
+    },
+    "suchen-wechsel": {
+      "einfach": "Ein Versuch passte nicht. Ihr habt noch einmal nachgesehen und dann die Antwort gefunden.",
+      "leicht": "Ein Versuch war falsch. Ihr habt noch einmal nach·gesehen. Dann habt ihr die Antwort gefunden."
+    },
+    "tipps": {
+      "einfach": "Ihr habt Tipps genutzt.",
+      "leicht": "Ihr habt Tipps genutzt."
+    },
+    "ohne-tipp": {
+      "einfach": "Ihr habt es ohne Tipp geschafft.",
+      "leicht": "Ihr habt keinen Tipp gebraucht."
+    },
+    "raetsel-erster": {
+      "einfach": "Jede Rolle hat ihren Teil vorgelesen. Zusammen hattet ihr die Lösung.",
+      "leicht": "Jede Rolle hat ihren Teil vor·gelesen. Zusammen hattet ihr die Lösung."
+    },
+    "raetsel-wechsel": {
+      "einfach": "Ein Versuch passte nicht. Ihr habt eure Teile noch einmal gelesen und die Lösung dann gefunden.",
+      "leicht": "Ein Versuch war falsch. Ihr habt eure Teile noch einmal gelesen. Dann hattet ihr die Lösung."
+    },
+    "abstimmen-wahl": {
+      "einfach": "Ihr habt zwei Seiten verglichen und abgestimmt. Eure Wahl: {wahl}.",
+      "leicht": "Ihr habt 2 Seiten verglichen. Dann habt ihr abgestimmt. Eure Wahl: {wahl}."
+    },
+    "abstimmen-beide": {
+      "einfach": "Ihr habt zwei Seiten verglichen. Ihr wart euch nicht einig, darum stehen beide auf eurer Karte.",
+      "leicht": "Ihr habt 2 Seiten verglichen. Ihr wart nicht einer Meinung. Darum stehen beide auf der Karte."
+    },
+    "neu-abgestimmt": {
+      "einfach": "Nach dem Gleichstand habt ihr geredet und noch einmal abgestimmt.",
+      "leicht": "Es stand gleich. Ihr habt geredet. Dann habt ihr noch einmal abgestimmt."
+    },
+    "grund": {
+      "einfach": "Euer Grund: {grund}",
+      "leicht": "Euer Grund: {grund}"
+    },
+    "vitrine": {
+      "einfach": "Eure Vitrine sagt: {satz}",
+      "leicht": "Eure Vitrine sagt: {satz}"
+    }
+  }
+}

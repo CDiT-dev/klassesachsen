@@ -1,0 +1,331 @@
+id	fassung	text
+station-1.einleitung.einfach	einfach	Ab vierzehnhunderteinundsiebzig baut der Baumeister Arnold von Westfalen dieses Schloss. Er probiert hier etwas Neues aus. Ihr findet es, wenn ihr nach oben schaut.
+station-1.einleitung.leicht	leicht	Dieses Schloss ist sehr alt. Der Bau beginnt vierzehnhunderteinundsiebzig. Der Baumeister heißt Arnold von Westfalen. Er baut hier etwas Neues. Schaut nach oben. Dann findet ihr es.
+station-1.plan.einfach	einfach	Plan: Stellt euch alle in die Mitte des Raums.
+station-1.plan.leicht	leicht	Plan: Geht in die Mitte vom Raum. Alle kommen mit.
+station-1.lupe-geheim.einfach	einfach	Nur für dich: Die gesuchte Decke sieht aus wie gefaltetes Papier, mit lauter kleinen, spitzen Mulden. Lies das nicht vor. Hilf den anderen mit einer Frage, zum Beispiel: Seht ihr Spitzen?
+station-1.lupe-geheim.leicht	leicht	Nur für dich: Die Decke sieht aus wie gefaltetes Papier. Sie hat viele kleine Spitzen. Lies das nicht vor. Frag die anderen: Seht ihr Spitzen?
+station-1.frage.einfach	einfach	Welches Muster seht ihr an der Decke?
+station-1.frage.leicht	leicht	Welches Muster seht ihr an der Decke?
+station-1.fehl-balken.einfach	einfach	Noch nicht. Ihr habt die geraden Balken gewählt. Diese Decke sieht anders aus. Schaut noch einmal genau nach oben. Drückt dann „Wir haben nachgesehen“.
+station-1.fehl-balken.leicht	leicht	Das ist es noch nicht. Ihr habt gerade Balken gewählt. Die Decke hier sieht anders aus. Schaut noch einmal nach oben. Drückt dann: Wir haben nachgesehen.
+station-1.fehl-stern.einfach	einfach	Noch nicht. Ihr habt den Stern aus Linien gewählt. So eine Decke gibt es auch in der Burg: im Wappensaal, etwa 50 Jahre später gebaut. Schaut hier noch einmal nach oben. Drückt dann „Wir haben nachgesehen“.
+station-1.fehl-stern.leicht	leicht	Das ist es noch nicht. Ihr habt den Stern gewählt. So eine Decke gibt es auch. Sie ist in einem anderen Raum. Er heißt Wappensaal. Schaut hier noch einmal nach oben. Drückt dann: Wir haben nachgesehen.
+station-1.gesperrt.einfach	einfach	Tablet weg. Schaut nach oben. Die Auswahl bleibt gesperrt, bis ihr „Wir haben nachgesehen“ drückt.
+station-1.gesperrt.leicht	leicht	Legt das Tablet weg. Schaut nach oben. Danach drückt ihr: Wir haben nachgesehen. Vorher könnt ihr nichts wählen.
+station-1.tipp-1.einfach	einfach	Tipp 1: Schaut nach oben.
+station-1.tipp-1.leicht	leicht	Tipp 1: Schaut nach oben.
+station-1.tipp-2.einfach	einfach	Tipp 2: Seht ihr eher gerade Linien oder viele Spitzen?
+station-1.tipp-2.leicht	leicht	Tipp 2: Seht ihr gerade Linien? Oder viele Spitzen?
+station-1.tipp-3.einfach	einfach	Tipp 3: Das Muster mit vielen spitzen Zellen heißt Zellengewölbe.
+station-1.tipp-3.leicht	leicht	Tipp 3: Die Decke mit vielen Spitzen heißt Zellengewölbe.
+station-1.geloest.einfach	einfach	Richtig: Das ist ein Zellengewölbe. Es wurde wohl eigens für dieses Schloss erfunden. Später hat man es an vielen Orten nachgebaut.
+station-1.geloest.leicht	leicht	Richtig! Das ist ein Zellengewölbe. Man hat es wohl für dieses Schloss erfunden. Später baut man es an vielen Orten nach.
+station-1.nachsehen.einfach	einfach	Tablet weg. Schaut noch einmal nach oben: Seht ihr die spitzen Zellen?
+station-1.nachsehen.leicht	leicht	Legt das Tablet weg. Schaut noch einmal nach oben. Seht ihr die Spitzen?
+station-1.modell.einfach	einfach	Dreht das Gewölbe mit dem Finger oder mit den Pfeilen.
+station-1.modell.leicht	leicht	Dreht das Gewölbe. Mit dem Finger oder mit den Pfeilen.
+station-1.klassenraum.einfach	einfach	Im Klassenraum: Sucht das Muster auf dem Foto der Decke.
+station-1.klassenraum.leicht	leicht	Im Klassenzimmer: Schaut auf das Foto von der Decke. Sucht das Muster.
+station-1.vorne.einfach	einfach	Arnold von Westfalen und seine Leute bauen hier ab vierzehnhunderteinundsiebzig eine neue Art Decke: das Zellengewölbe. Es wurde wohl eigens für dieses Schloss erfunden.
+station-1.vorne.leicht	leicht	Arnold von Westfalen baut hier ab vierzehnhunderteinundsiebzig. Er baut eine neue Art Decke. Sie heißt Zellengewölbe. Man hat sie wohl für dieses Schloss erfunden.
+station-1.hinten.einfach	einfach	Arnolds Steinmetze bauten die Form bald auch anderswo. Bis etwa fünfzehnhundertfünfzig gab es Zellengewölbe im ganzen Osten Mitteleuropas. Wie man sie plant, schrieb damals niemand auf. Forscher haben sie deshalb nachgebaut, um es herauszufinden.
+station-1.hinten.leicht	leicht	Arnold hat Helfer. Sie heißen Steinmetze. Sie bauen die Decke bald auch in anderen Ländern. Damals schreibt niemand auf: Wie plant man so eine Decke? Heute bauen Forscher sie nach. So finden sie es heraus.
+station-1.zusatzfrage.einfach	einfach	Zusatzfrage: Warum baut man eine Decke aus lauter Falten und Spitzen? Achtet darauf, wie das Licht darauf fällt.
+station-1.zusatzfrage.leicht	leicht	Zusatzfrage: Warum hat die Decke so viele Falten? Schaut auf das Licht an der Decke.
+station-2.einleitung.einfach	einfach	Im Juli vierzehnhundertfünfundfünfzig holt der Ritter Kunz von Kauffungen nachts zwei Prinzen aus dem Schloss in Altenburg: Ernst, 14 Jahre alt, und Albrecht, 11 Jahre alt. Er will ihren Vater, den Kurfürsten, zwingen, ihm verlorenes Land zu ersetzen.
+station-2.einleitung.leicht	leicht	Es ist das Jahr vierzehnhundertfünfundfünfzig. Ein Ritter heißt Kunz von Kauffungen. Er raubt nachts zwei Prinzen. Sie heißen Ernst und Albrecht. Ernst ist 14 Jahre alt. Albrecht ist 11 Jahre alt. Der Ritter hat Land verloren. Dafür will er etwas vom Vater der Prinzen bekommen.
+station-2.auftrag.einfach	einfach	Sucht zuerst das Wandbild mit dem Köhler. Ein Köhler macht im Wald Holzkohle.
+station-2.auftrag.leicht	leicht	Sucht zuerst das Bild an der Wand. Auf dem Bild ist ein Köhler. Ein Köhler macht im Wald Holzkohle.
+station-2.frage.einfach	einfach	Welche Geschichte soll eure Fundkarte erzählen?
+station-2.frage.leicht	leicht	Welche Geschichte kommt auf eure Fundkarte?
+station-2.hinweis-stimmen.einfach	einfach	Erfundene Stimmen für das Spiel
+station-2.hinweis-stimmen.leicht	leicht	Diese Stimmen hat sich das Spiel ausgedacht.
+station-2.maler.einfach	einfach	So hätte es der Maler erzählt: Mein Wandbild in dieser Burg zeigt, wie der junge Prinz Albrecht befreit wird. Ich habe es achtzehnhundertfünfundsiebzig gemalt, mehr als 400 Jahre danach. Es soll zeigen, wie eng Fürst und Land zusammengehören.
+station-2.maler.leicht	leicht	Der Maler: Ich bin der Maler. Mein Bild zeigt: Prinz Albrecht wird gerettet. Ich male das Bild achtzehnhundertfünfundsiebzig. Das ist mehr als 400 Jahre später. Das Bild soll zeigen: Fürst und Land gehören zusammen.
+station-2.maler-quelle.einfach	einfach	Quelle: Erwin Öhme hat das Wandbild achtzehnhundertfünfundsiebzig gemalt. Wer die Bilder der Burg bestellt hat, wollte ein „Denkmal der Liebe zwischen Fürst und Land“.
+station-2.maler-quelle.leicht	leicht	Quelle: Erwin Öhme malt das Bild achtzehnhundertfünfundsiebzig. Die Bilder in der Burg sollen zeigen: Fürst und Land halten zusammen.
+station-2.koehler.einfach	einfach	So hätte es der Köhler erzählt: Ich habe im Wald Holzkohle gemacht. Dann kamen Reiter mit einem Jungen vorbei. Ich habe nicht lange nachgedacht.
+station-2.koehler.leicht	leicht	Der Köhler: Ich bin der Köhler. Ich mache im Wald Holzkohle. Da kommen Reiter. Sie haben einen Jungen dabei. Ich helfe dem Jungen sofort.
+station-2.koehler-quelle.einfach	einfach	Quelle: Die Volkssage nennt ihn Georg Schmidt. Zum Dank bekam er Holz, ein Gut und einen Adelstitel.
+station-2.koehler-quelle.leicht	leicht	Quelle: Eine alte Sage erzählt: Der Köhler heißt Georg Schmidt. Als Dank bekommt er Holz und einen Bauernhof.
+station-2.was-die-burg-schreibt.einfach	einfach	Was die Burg heute schreibt: Die Geschichte vom Köhler ist eine Sage. Sicher ist: Albrecht konnte noch am selben Tag entkommen und Hilfe holen.
+station-2.was-die-burg-schreibt.leicht	leicht	Was die Burg heute sagt: Die Geschichte vom Köhler ist eine Sage. Sicher ist: Albrecht ist noch am selben Tag weggelaufen. Er hat Hilfe geholt.
+station-2.abstimmen.einfach	einfach	Stimmt mit Handzeichen ab. Wer die Rolle Stift hat, zählt die Stimmen und trägt nur das Ergebnis ein.
+station-2.abstimmen.leicht	leicht	Hebt die Hand für eure Wahl. Stift zählt die Hände. Stift tippt nur die Zahl ein.
+station-2.gleichstand.einfach	einfach	Gleichstand. Redet eine Minute, dann stimmt ihr noch einmal ab.
+station-2.gleichstand.leicht	leicht	Es steht gleich. Redet 1 Minute. Dann stimmt noch einmal ab.
+station-2.gleichstand-2.einfach	einfach	Bleibt es gleich, kommen beide Seiten auf die Karte.
+station-2.gleichstand-2.leicht	leicht	Steht es wieder gleich? Dann kommen beide Geschichten auf die Karte.
+station-2.begruenden-koehler.einfach	einfach	Ihr wählt die Geschichte des Köhlers. Sie kommt auf die Vorderseite eurer Fundkarte. Warum diese Geschichte?
+station-2.begruenden-koehler.leicht	leicht	Ihr wählt den Köhler. Seine Geschichte kommt nach vorne auf die Fundkarte. Warum?
+station-2.begruenden-maler.einfach	einfach	Ihr wählt die Geschichte des Malers. Sie kommt auf die Vorderseite eurer Fundkarte. Warum diese Geschichte?
+station-2.begruenden-maler.leicht	leicht	Ihr wählt den Maler. Seine Geschichte kommt nach vorne auf die Fundkarte. Warum?
+station-2.eigener-grund.einfach	einfach	Eigener Grund (ohne Namen)
+station-2.eigener-grund.leicht	leicht	Euer eigener Grund. Schreibt keine Namen.
+station-2.klassenraum.einfach	einfach	Im Klassenraum: Sucht auf dem Bild den Mann mit dem langen Stock.
+station-2.klassenraum.leicht	leicht	Im Klassenzimmer: Schaut auf das Bild. Sucht den Mann mit dem langen Stock.
+station-2.vorne-koehler.einfach	einfach	Ein Köhler aus dem Wald rettet den Prinzen Albrecht. So erzählt es die Sage.
+station-2.vorne-koehler.leicht	leicht	Ein Köhler rettet Prinz Albrecht. So erzählt es eine alte Sage.
+station-2.vorne-maler.einfach	einfach	Der Maler zeigt die Rettung als großes Bild für Fürst und Land.
+station-2.vorne-maler.leicht	leicht	Der Maler zeigt die Rettung. Das Bild ist für Fürst und Land.
+station-2.vorne-beide.einfach	einfach	Ihr habt euch nicht geeinigt. Beide Geschichten kommen auf die Karte: die Sage vom Köhler und das Bild des Malers.
+station-2.vorne-beide.leicht	leicht	Ihr habt euch nicht geeinigt. Darum kommen beide Geschichten auf die Karte.
+station-2.hinten.einfach	einfach	Das Bild entstand achtzehnhundertfünfundsiebzig, 420 Jahre nach dem Raub. Bezahlt wurden die Bilder dieser Burg zum Teil mit Geld, das Frankreich nach dem verlorenen Krieg achtzehnhunderteinundsiebzig zahlen musste. Sie sollten Fürst und Land zusammen zeigen.
+station-2.hinten.leicht	leicht	Das Bild ist von achtzehnhundertfünfundsiebzig. Das ist 420 Jahre nach dem Raub. Wer bezahlt das Bild? Frankreich hat achtzehnhunderteinundsiebzig einen Krieg verloren. Danach muss Frankreich viel Geld zahlen. Ein Teil davon bezahlt die Bilder in dieser Burg.
+station-2.zusatzfrage.einfach	einfach	Zusatzfrage: Wer bestimmt, welche Geschichte an der Wand einer Burg hängt?
+station-2.zusatzfrage.leicht	leicht	Zusatzfrage: Wer sucht aus, welche Bilder in einer Burg hängen?
+station-3.einleitung.einfach	einfach	Johann Friedrich Böttger soll für August den Starken Gold machen. Er wird bewacht und darf nicht weg. Gold macht er nie. Aber mit anderen Forschern findet er etwas Neues: weißes Porzellan.
+station-3.einleitung.leicht	leicht	Hier geht es um Johann Friedrich Böttger. August der Starke ist der Herrscher. Er will Gold. Böttger soll das Gold machen. Er wird bewacht. Er darf nicht weggehen. Gold macht er nie. Aber er findet mit anderen Forschern etwas Neues: weißes Porzellan.
+station-3.frage.einfach	einfach	Was braucht weißes Porzellan?
+station-3.frage.leicht	leicht	Was braucht man für weißes Porzellan?
+station-3.regel.einfach	einfach	Jede Rolle hat einen Teil des Rezepts. Tippt auf euren Teil, dann lest ihn vor. Legt die Zutaten in die Schale.
+station-3.regel.leicht	leicht	Jede Rolle hat einen Teil vom Rezept. Tippt auf euren Teil. Lest ihn vor. Legt die Zutaten in die Schale.
+station-3.teil-plan.einfach	einfach	Eine weiße Erde. Ihr Name kommt aus dem Chinesischen und heißt „hoher Hügel“.
+station-3.teil-plan.leicht	leicht	Eine weiße Erde. Der Name kommt aus China. Er heißt: hoher Hügel.
+station-3.teil-lupe.einfach	einfach	Ein harter, heller Stein. Ganz fein gemahlen.
+station-3.teil-lupe.leicht	leicht	Ein harter, heller Stein. Ganz fein gemahlen.
+station-3.teil-stift.einfach	einfach	Es schmilzt im Feuer zuerst und hält alles zusammen. Böttger nahm dafür Alabaster. Heute nimmt man Feldspat.
+station-3.teil-stift.leicht	leicht	Es schmilzt im Feuer zuerst. Es hält alles zusammen. Böttger nimmt dafür Alabaster. Heute nimmt man Feldspat.
+station-3.zu-wenig.einfach	einfach	Erst drei Zutaten in die Schale.
+station-3.zu-wenig.leicht	leicht	Legt zuerst 3 Zutaten in die Schale.
+station-3.fehl-gold.einfach	einfach	Gold sollte Böttger machen. Ins Porzellan gehört es nicht. Lupe: Lies das Schild unten am Wandbild mit dem Ofen.
+station-3.fehl-gold.leicht	leicht	Böttger soll Gold machen. Aber Gold kommt nicht ins Porzellan. Lupe: Lies das Schild unten am Bild mit dem Ofen.
+station-3.fehl-salz.einfach	einfach	Salz gehört nicht ins Rezept. Lest eure drei Teile noch einmal vor.
+station-3.fehl-salz.leicht	leicht	Salz kommt nicht hinein. Lest eure 3 Teile noch einmal vor.
+station-3.tablet-weg.einfach	einfach	Tablet weg. Sucht das Wandbild mit dem Ofen. Unten steht auf einem Schild, was Böttger hier machen sollte.
+station-3.tablet-weg.leicht	leicht	Legt das Tablet weg. Sucht das Bild mit dem Ofen. Unten ist ein Schild. Dort steht: Was soll Böttger hier machen?
+station-3.brennen.einfach	einfach	Sehr heiß brennen
+station-3.brennen.leicht	leicht	Sehr heiß brennen
+station-3.geloest.einfach	einfach	Richtig: Ka-o-lin, Quarz und ein Flussmittel, ganz fein gemahlen. Dann kommt alles in den Ofen. In Meißen brennt man Porzellan heute bei 1380 bis 1450 Grad.
+station-3.geloest.leicht	leicht	Richtig! Ihr braucht Ka-o-lin, Quarz und ein Flussmittel. Alles wird ganz fein gemahlen. Dann kommt es in einen Ofen. Der Ofen ist sehr heiß: über 1380 Grad.
+station-3.frage-geheimnis.einfach	einfach	Soll Sachsen das Geheimnis behalten?
+station-3.frage-geheimnis.leicht	leicht	Soll Sachsen das Geheimnis für sich behalten?
+station-3.hinweis-stimmen.einfach	einfach	Erfundene Stimmen für das Spiel
+station-3.hinweis-stimmen.leicht	leicht	Diese Stimmen hat sich das Spiel ausgedacht.
+station-3.august.einfach	einfach	So hätte es August der Starke gesehen: Das Porzellan wird verkauft und füllt meine Kassen. Niemand darf das Rezept kennen.
+station-3.august.leicht	leicht	August der Starke: Ich bin August, der Herrscher. Wir verkaufen das Porzellan. So bekomme ich viel Geld. Niemand darf das Rezept kennen.
+station-3.august-quelle.einfach	einfach	Quelle: Der Verkauf des „Weißen Goldes“ sollte die Kassen des Königs füllen.
+station-3.august-quelle.leicht	leicht	Quelle: Der König will mit dem Porzellan Geld verdienen.
+station-3.boettger.einfach	einfach	So hätte es Böttger gesehen: Ich kenne das Geheimnis. Deshalb darf ich nicht gehen. Ist das gerecht?
+station-3.boettger.leicht	leicht	Böttger: Ich bin Böttger. Ich kenne das Geheimnis. Darum darf ich nicht weggehen. Ist das gerecht?
+station-3.boettger-quelle.einfach	einfach	Quelle: Böttger wurde bewacht. Bis zu seinem Tod siebzehnhundertneunzehn bat er um seine Freiheit.
+station-3.boettger-quelle.leicht	leicht	Quelle: Böttger wird bewacht. Er bittet oft um seine Freiheit.
+station-3.abstimmen.einfach	einfach	Stimmt mit Handzeichen ab. Wer die Rolle Stift hat, zählt die Stimmen und trägt nur das Ergebnis ein.
+station-3.abstimmen.leicht	leicht	Hebt die Hand für eure Wahl. Stift zählt die Hände. Stift tippt nur die Zahl ein.
+station-3.gleichstand.einfach	einfach	Gleichstand. Redet eine Minute, dann stimmt ihr noch einmal ab.
+station-3.gleichstand.leicht	leicht	Es steht gleich. Redet 1 Minute. Dann stimmt noch einmal ab.
+station-3.gleichstand-2.einfach	einfach	Bleibt es gleich, kommen beide Seiten auf die Karte.
+station-3.gleichstand-2.leicht	leicht	Steht es wieder gleich? Dann kommen beide Seiten auf die Karte.
+station-3.klassenraum.einfach	einfach	Im Klassenraum: Lest die Schrift unten auf der Postkarte mit dem Labor.
+station-3.klassenraum.leicht	leicht	Im Klassenzimmer: Schaut auf die Postkarte mit dem Labor. Lest die Schrift unten.
+station-3.vorne.einfach	einfach	Im Januar siebzehnhundertacht gelingt in Dresden das erste weiße Porzellan. siebzehnhundertzehn zieht die neue Manufaktur in diese leere Burg. Hier ist das Geheimnis sicher.
+station-3.vorne.leicht	leicht	siebzehnhundertacht gibt es in Dresden zum ersten Mal weißes Porzellan. siebzehnhundertzehn kommt die Porzellanfabrik in diese Burg. Die Burg ist leer. Hier ist das Geheimnis sicher.
+station-3.hinten.einfach	einfach	Porzellan aus China war an Europas Fürstenhöfen schon lange begehrt. In Sachsen musste man erst herausfinden, wie man es selbst macht. Böttger war dabei nicht frei. Und das Geheimnis hielt nicht lange: Ab siebzehnhundertzwanzig gab es auch Porzellan aus Wien.
+station-3.hinten.leicht	leicht	Porzellan aus China ist schon lange beliebt. In Sachsen weiß man nicht: Wie macht man das? Das muss man erst herausfinden. Böttger ist dabei nicht frei. Das Geheimnis hält nicht lange. Ab siebzehnhundertzwanzig gibt es auch Porzellan aus Wien.
+station-3.zusatzfrage.einfach	einfach	Zusatzfrage: Das andere Wandbild zeigt die Erfindung hier in der Burg. Die Burg schreibt heute: Das stimmt nicht, sie gelang in Dresden. Warum malt man es trotzdem so?
+station-3.zusatzfrage.leicht	leicht	Zusatzfrage: Ein Bild zeigt: Das Porzellan wurde hier erfunden. Das stimmt nicht. Es war in Dresden. Warum malt der Maler es so?
+rahmen.titel.einfach	einfach	Was ist sächsisch?
+rahmen.titel.leicht	leicht	Was ist sächsisch?
+rahmen.start-text.einfach	einfach	Ihr löst Aufgaben an drei Stationen in der Albrechtsburg. An jeder Station bekommt ihr eine Fundkarte. Am Ende gestaltet ihr eure eigene Vitrine.
+rahmen.start-text.leicht	leicht	Ihr spielt in der Albrechtsburg. Es gibt 3 Stationen. An jeder Station bekommt ihr eine Fundkarte. Am Ende baut ihr eure eigene Vitrine.
+rahmen.angebot.einfach	einfach	Diese Demo gehört zum Angebot von CDiT für die öffentliche Ausschreibung klasseSachsen.
+rahmen.angebot.leicht	leicht	Diese Demo ist von CDiT. Sie gehört zu einem Angebot für klasseSachsen.
+rahmen.klasse.einfach	einfach	Mit der Klasse spielen
+rahmen.klasse.leicht	leicht	Mit der Klasse spielen
+rahmen.klasse-sub.einfach	einfach	Code von eurer Lehrkraft eingeben
+rahmen.klasse-sub.leicht	leicht	Ihr bekommt einen Code von eurer Lehrkraft.
+rahmen.allein.einfach	einfach	Allein ausprobieren
+rahmen.allein.leicht	leicht	Allein ausprobieren
+rahmen.allein-sub.einfach	einfach	Du übernimmst alle drei Rollen.
+rahmen.allein-sub.leicht	leicht	Du spielst alle 3 Rollen.
+rahmen.demo-zeigt.einfach	einfach	Was diese Demo zeigt
+rahmen.demo-zeigt.leicht	leicht	Was diese Demo zeigt
+rahmen.quellen-link.einfach	einfach	Quellen und Bilder
+rahmen.quellen-link.leicht	leicht	Quellen und Bilder
+rahmen.weiterspielen.einfach	einfach	Weiterspielen
+rahmen.weiterspielen.leicht	leicht	Weiterspielen
+rahmen.code-titel.einfach	einfach	Code eingeben
+rahmen.code-titel.leicht	leicht	Code eingeben
+rahmen.code-text.einfach	einfach	Den Code bekommt ihr von eurer Lehrkraft.
+rahmen.code-text.leicht	leicht	Den Code gibt euch eure Lehrkraft.
+rahmen.code-fehler.einfach	einfach	Diesen Code gibt es nicht. Prüft jedes Zeichen und versucht es noch einmal.
+rahmen.code-fehler.leicht	leicht	Diesen Code gibt es nicht. Schaut jedes Zeichen genau an. Versucht es noch einmal.
+rahmen.ohne-code.einfach	einfach	Ohne Code ausprobieren
+rahmen.ohne-code.leicht	leicht	Ohne Code ausprobieren
+rahmen.zurueck.einfach	einfach	Zurück
+rahmen.zurueck.leicht	leicht	Zurück
+rahmen.weiter.einfach	einfach	Weiter
+rahmen.weiter.leicht	leicht	Weiter
+rahmen.gruppe-titel.einfach	einfach	Wer seid ihr?
+rahmen.gruppe-titel.leicht	leicht	Wer seid ihr?
+rahmen.tiername.einfach	einfach	Sucht euch einen Tiernamen aus.
+rahmen.tiername.leicht	leicht	Sucht einen Tiernamen aus.
+rahmen.groesse.einfach	einfach	Wie viele seid ihr?
+rahmen.groesse.leicht	leicht	Wie viele Kinder seid ihr?
+rahmen.ort-frage.einfach	einfach	Wo spielt ihr?
+rahmen.ort-frage.leicht	leicht	Wo spielt ihr?
+rahmen.ort-burg.einfach	einfach	In der Burg
+rahmen.ort-burg.leicht	leicht	In der Burg
+rahmen.ort-klasse.einfach	einfach	Im Klassenraum
+rahmen.ort-klasse.leicht	leicht	Im Klassenzimmer
+rahmen.rollen-titel.einfach	einfach	Verteilt die Rollen.
+rahmen.rollen-titel.leicht	leicht	Verteilt die Rollen.
+rahmen.rolle-plan.einfach	einfach	Plan findet den Weg.
+rahmen.rolle-plan.leicht	leicht	Plan findet den Weg.
+rahmen.rolle-lupe.einfach	einfach	Lupe liest die Quelle im Raum.
+rahmen.rolle-lupe.leicht	leicht	Lupe liest, was im Raum steht.
+rahmen.rolle-stift.einfach	einfach	Stift zählt und trägt ein.
+rahmen.rolle-stift.leicht	leicht	Stift zählt und tippt ein.
+rahmen.rollen-teilen.einfach	einfach	Seid ihr vier oder fünf? Dann teilen sich zwei eine Rolle. Danach nimmt Stift das Tablet.
+rahmen.rollen-teilen.leicht	leicht	Seid ihr 4 oder 5? Dann haben 2 Kinder dieselbe Rolle. Danach nimmt Stift das Tablet.
+rahmen.zeichen-text.einfach	einfach	Früher haben Steinmetze ihr Zeichen in die Steine gehauen. Zeichnet jetzt euer eigenes: Tippt zwei Punkte nacheinander an, dann verbindet eine Linie sie.
+rahmen.zeichen-text.leicht	leicht	Früher hatten Steinmetze ein eigenes Zeichen. Sie haben es in die Steine gehauen. Malt jetzt euer Zeichen: Tippt 2 Punkte an. Dann kommt eine Linie dazwischen.
+rahmen.rueckgaengig.einfach	einfach	Rückgängig
+rahmen.rueckgaengig.leicht	leicht	Rückgängig
+rahmen.vorschlagen.einfach	einfach	Zeichen vorschlagen
+rahmen.vorschlagen.leicht	leicht	Zeichen vorschlagen
+rahmen.los.einfach	einfach	Los geht's
+rahmen.los.leicht	leicht	Los geht's
+rahmen.am-tablet.einfach	einfach	Am Tablet
+rahmen.am-tablet.leicht	leicht	Am Tablet
+rahmen.alle.einfach	einfach	alle
+rahmen.alle.leicht	leicht	alle
+rahmen.einfach.einfach	einfach	Einfache Sprache
+rahmen.einfach.leicht	leicht	Einfache Sprache
+rahmen.leicht.einfach	einfach	Leichte Sprache
+rahmen.leicht.leicht	leicht	Leichte Sprache
+rahmen.groesser.einfach	einfach	Schrift größer
+rahmen.groesser.leicht	leicht	Schrift größer
+rahmen.sprache.einfach	einfach	Sprache
+rahmen.sprache.leicht	leicht	Sprache
+rahmen.vitrine-text.einfach	einfach	Drei Stationen, drei Fundkarten. Am Ende gestaltet ihr eure eigene Vitrine.
+rahmen.vitrine-text.leicht	leicht	Es gibt 3 Stationen und 3 Fundkarten. Am Ende baut ihr eure eigene Vitrine.
+rahmen.alle-gefunden.einfach	einfach	Alle drei Fundkarten liegen in der Vitrine. Jetzt gestaltet ihr sie gemeinsam.
+rahmen.alle-gefunden.leicht	leicht	Alle 3 Fundkarten sind in der Vitrine. Jetzt baut ihr die Vitrine zusammen.
+rahmen.gestalten-los.einfach	einfach	Vitrine gestalten
+rahmen.gestalten-los.leicht	leicht	Vitrine gestalten
+rahmen.uebergabe-Plan.einfach	einfach	Mit dem Plan der Burg findest du den Weg. Führe die Gruppe zur nächsten Station.
+rahmen.uebergabe-Plan.leicht	leicht	Du findest den Weg. Führe die Gruppe zur nächsten Station.
+rahmen.uebergabe-Lupe.einfach	einfach	Du liest, was im Raum steht. Und du bekommst einen geheimen Hinweis.
+rahmen.uebergabe-Lupe.leicht	leicht	Du liest, was im Raum steht. Du bekommst einen geheimen Hinweis.
+rahmen.uebergabe-Stift.einfach	einfach	Du zählst die Stimmen und tippst das Ergebnis ein.
+rahmen.uebergabe-Stift.leicht	leicht	Du zählst die Stimmen. Du tippst das Ergebnis ein.
+rahmen.uebergabe-ok.einfach	einfach	Ich habe das Tablet
+rahmen.uebergabe-ok.leicht	leicht	Ich habe das Tablet
+rahmen.wir-sind-da.einfach	einfach	Wir sind da
+rahmen.wir-sind-da.leicht	leicht	Wir sind da
+rahmen.tipps-frei.einfach	einfach	Tipps kosten nichts.
+rahmen.tipps-frei.leicht	leicht	Tipps sind frei.
+rahmen.nachgesehen.einfach	einfach	Wir haben nachgesehen
+rahmen.nachgesehen.leicht	leicht	Wir haben nachgesehen
+rahmen.gesperrt-grund.einfach	einfach	Erst nachsehen, dann neu wählen.
+rahmen.gesperrt-grund.leicht	leicht	Erst nachsehen. Dann neu wählen.
+rahmen.geheim.einfach	einfach	Geheimer Hinweis für Lupe
+rahmen.geheim.leicht	leicht	Geheimer Hinweis für Lupe
+rahmen.zeigen.einfach	einfach	Zeigen
+rahmen.zeigen.leicht	leicht	Zeigen
+rahmen.verdecken.einfach	einfach	Verdecken
+rahmen.verdecken.leicht	leicht	Verdecken
+rahmen.zur-fundkarte.einfach	einfach	Zur Fundkarte
+rahmen.zur-fundkarte.leicht	leicht	Zur Fundkarte
+rahmen.zu-viele.einfach	einfach	Das sind mehr Stimmen als Kinder in der Gruppe. Zählt noch einmal.
+rahmen.zu-viele.leicht	leicht	Das sind zu viele Stimmen. Zählt noch einmal.
+rahmen.keine-stimme.einfach	einfach	Zählt zuerst die Stimmen.
+rahmen.keine-stimme.leicht	leicht	Zählt zuerst die Hände.
+rahmen.ergebnis.einfach	einfach	Ergebnis eintragen
+rahmen.ergebnis.leicht	leicht	Ergebnis eintragen
+rahmen.nochmal.einfach	einfach	Nochmal abstimmen
+rahmen.nochmal.leicht	leicht	Noch einmal abstimmen
+rahmen.quellen.einfach	einfach	Quellen
+rahmen.quellen.leicht	leicht	Quellen
+rahmen.quellen-zu.einfach	einfach	Quellen ausblenden
+rahmen.quellen-zu.leicht	leicht	Quellen ausblenden
+rahmen.grund-waehlen.einfach	einfach	Wählt einen Grund. Eure Meinung zählt.
+rahmen.grund-waehlen.leicht	leicht	Wählt einen Grund. Eure Meinung ist wichtig.
+rahmen.grund-platzhalter.einfach	einfach	weil … (ohne Namen)
+rahmen.grund-platzhalter.leicht	leicht	weil … (ohne Namen)
+rahmen.grund-hilfe.einfach	einfach	Euer Grund kommt auf die Karte und ins Bild. Schreibt keine Namen.
+rahmen.grund-hilfe.leicht	leicht	Euer Grund kommt auf die Karte. Schreibt keine Namen.
+rahmen.auf-karte.einfach	einfach	Auf die Fundkarte schreiben
+rahmen.auf-karte.leicht	leicht	Auf die Fundkarte schreiben
+rahmen.schale.einfach	einfach	Die Schale
+rahmen.schale.leicht	leicht	Die Schale
+rahmen.noch-frei.einfach	einfach	Noch frei
+rahmen.noch-frei.leicht	leicht	Noch frei
+rahmen.zutaten-hilfe.einfach	einfach	Tippt eine Zutat an. Dann kommt sie in die Schale.
+rahmen.zutaten-hilfe.leicht	leicht	Tippt eine Zutat an. Sie kommt in die Schale.
+rahmen.in-der-schale.einfach	einfach	schon in der Schale
+rahmen.in-der-schale.leicht	leicht	schon in der Schale
+rahmen.vorderseite.einfach	einfach	Vorderseite
+rahmen.vorderseite.leicht	leicht	Vorderseite
+rahmen.rueckseite.einfach	einfach	Rückseite
+rahmen.rueckseite.leicht	leicht	Rückseite
+rahmen.umdrehen.einfach	einfach	Fundkarte umdrehen
+rahmen.umdrehen.leicht	leicht	Fundkarte umdrehen
+rahmen.ablegen.einfach	einfach	In die Vitrine legen
+rahmen.ablegen.leicht	leicht	In die Vitrine legen
+rahmen.erst-umdrehen.einfach	einfach	Dreht zuerst die Fundkarte um. Legt sie dann in eure Vitrine.
+rahmen.erst-umdrehen.leicht	leicht	Dreht zuerst die Fundkarte um. Dann legt sie in die Vitrine.
+rahmen.karte-neu.einfach	einfach	Ihr habt eine neue Fundkarte. Sie hat zwei Seiten. Dreht sie um.
+rahmen.karte-neu.leicht	leicht	Ihr habt eine neue Fundkarte. Sie hat 2 Seiten. Dreht sie um.
+rahmen.beide-seiten.einfach	einfach	beide Seiten
+rahmen.beide-seiten.leicht	leicht	beide Seiten
+rahmen.erfasst.einfach	einfach	Erfasst
+rahmen.erfasst.leicht	leicht	Erfasst
+rahmen.zusatzfrage.einfach	einfach	Zusatzfrage
+rahmen.zusatzfrage.leicht	leicht	Zusatzfrage
+rahmen.gestalten-titel.einfach	einfach	Gestaltet eure Vitrine
+rahmen.gestalten-titel.leicht	leicht	Gestaltet eure Vitrine
+rahmen.gestalten-text.einfach	einfach	Ordnet eure drei Fundkarten an. Wählt dann einen Satz.
+rahmen.gestalten-text.leicht	leicht	Legt eure 3 Fundkarten hin. Wählt dann einen Satz.
+rahmen.sachsen-ist.einfach	einfach	Sachsen ist …
+rahmen.sachsen-ist.leicht	leicht	Sachsen ist …
+rahmen.eigener-satz.einfach	einfach	Eigener Satz (ohne Namen)
+rahmen.eigener-satz.leicht	leicht	Eigener Satz. Schreibt keine Namen.
+rahmen.tausch-hilfe.einfach	einfach	Tippt eine Karte an und dann den Platz, an den sie soll.
+rahmen.tausch-hilfe.leicht	leicht	Tippt auf eine Karte. Dann tippt auf den neuen Platz.
+rahmen.fertig.einfach	einfach	Fertig
+rahmen.fertig.leicht	leicht	Fertig
+rahmen.ende-titel.einfach	einfach	Hier ist eure Vitrine.
+rahmen.ende-titel.leicht	leicht	Hier ist eure Vitrine.
+rahmen.ende-text.einfach	einfach	Speichert das Bild. Dann gebt das Tablet eurer Lehrkraft.
+rahmen.ende-text.leicht	leicht	Speichert das Bild. Dann gebt das Tablet eurer Lehrkraft.
+rahmen.speichern.einfach	einfach	Bild speichern
+rahmen.speichern.leicht	leicht	Bild speichern
+rahmen.bild-wird.einfach	einfach	Das Bild wird gemacht …
+rahmen.bild-wird.leicht	leicht	Das Bild wird gemacht …
+rahmen.nochmal-spielen.einfach	einfach	Noch einmal spielen
+rahmen.nochmal-spielen.leicht	leicht	Noch einmal spielen
+rahmen.neu-sicher.einfach	einfach	Wirklich neu anfangen? Eure Fundkarten sind dann weg.
+rahmen.neu-sicher.leicht	leicht	Wirklich neu anfangen? Dann sind eure Fundkarten weg.
+rahmen.ja-neu.einfach	einfach	Ja, neu anfangen
+rahmen.ja-neu.leicht	leicht	Ja, neu anfangen
+rahmen.offline.einfach	einfach	Kein Netz. Das Spiel läuft trotzdem weiter.
+rahmen.offline.leicht	leicht	Kein Internet. Ihr könnt trotzdem weiterspielen.
+rahmen.euer-versuch.einfach	einfach	Euer Versuch
+rahmen.euer-versuch.leicht	leicht	Euer Versuch
+rahmen.begruenden-titel.einfach	einfach	Warum diese Wahl?
+rahmen.begruenden-titel.leicht	leicht	Warum?
+rahmen.ende-gemacht.einfach	einfach	Das habt ihr gemacht
+rahmen.ende-gemacht.leicht	leicht	Das habt ihr gemacht
+rahmen.satz-fehlt.einfach	einfach	Wählt zuerst einen Satz.
+rahmen.satz-fehlt.leicht	leicht	Wählt zuerst einen Satz.
+ende.einleitung.einfach	einfach	So habt ihr gearbeitet. Es gibt keine Punkte und keine Noten.
+ende.einleitung.leicht	leicht	So habt ihr gearbeitet. Es gibt keine Punkte. Es gibt keine Noten.
+ende.suchen-erster.einfach	einfach	Ihr habt im Raum nachgesehen und die Antwort gleich gefunden.
+ende.suchen-erster.leicht	leicht	Ihr habt im Raum nachgesehen. Ihr habt die Antwort gleich gefunden.
+ende.suchen-wechsel.einfach	einfach	Ein Versuch passte nicht. Ihr habt noch einmal nachgesehen und dann die Antwort gefunden.
+ende.suchen-wechsel.leicht	leicht	Ein Versuch war falsch. Ihr habt noch einmal nachgesehen. Dann habt ihr die Antwort gefunden.
+ende.tipps.einfach	einfach	Ihr habt Tipps genutzt.
+ende.tipps.leicht	leicht	Ihr habt Tipps genutzt.
+ende.ohne-tipp.einfach	einfach	Ihr habt es ohne Tipp geschafft.
+ende.ohne-tipp.leicht	leicht	Ihr habt keinen Tipp gebraucht.
+ende.raetsel-erster.einfach	einfach	Jede Rolle hat ihren Teil vorgelesen. Zusammen hattet ihr die Lösung.
+ende.raetsel-erster.leicht	leicht	Jede Rolle hat ihren Teil vorgelesen. Zusammen hattet ihr die Lösung.
+ende.raetsel-wechsel.einfach	einfach	Ein Versuch passte nicht. Ihr habt eure Teile noch einmal gelesen und die Lösung dann gefunden.
+ende.raetsel-wechsel.leicht	leicht	Ein Versuch war falsch. Ihr habt eure Teile noch einmal gelesen. Dann hattet ihr die Lösung.
+ende.abstimmen-beide.einfach	einfach	Ihr habt zwei Seiten verglichen. Ihr wart euch nicht einig, darum stehen beide auf eurer Karte.
+ende.abstimmen-beide.leicht	leicht	Ihr habt 2 Seiten verglichen. Ihr wart nicht einer Meinung. Darum stehen beide auf der Karte.
+ende.neu-abgestimmt.einfach	einfach	Nach dem Gleichstand habt ihr geredet und noch einmal abgestimmt.
+ende.neu-abgestimmt.leicht	leicht	Es stand gleich. Ihr habt geredet. Dann habt ihr noch einmal abgestimmt.
